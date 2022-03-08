@@ -32,7 +32,15 @@ public class ValidateUSPhonenumber {
             break;
         }
 
+     /*String searchResultXpath = "//*[@id='accountTable']/table/tbody/tr
+        List<WebElement> searchRuslt  = driver.findElements(By.xpath(searchResultXpath);
 
+        int resultSize = searchResul.size();
 
+        for (int i=0; i<resultSize; i++ ){
+         System.out.println(searchResult.get(i).getText());
+         }
+
+      */
     }
 }
