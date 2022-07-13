@@ -1,34 +1,24 @@
 package w3Resource;
 
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Exercise58 {
 
 
-    public static void main(String[] args) {
-
-        //Write a Java program to capitalize the first letter of each word in a sentence.
-
-        String words = "practice is part of learning!";
-
-        String split[] = words.split("\\s");
-
-        String newString = " ";
-
-        for (String w : split){
-
-            String firstLetter = w.substring(0,1);
-            String restOfLetters = w.substring(1);
-
-            newString += firstLetter.toUpperCase() + restOfLetters + " ";
-
-
-
-
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input a Sentence: ");
+        String line = in.nextLine();
+        String upper_case_line = "";
+        Scanner lineScan = new Scanner(line);
+        while(lineScan.hasNext()) {
+            String word = lineScan.next();
+            upper_case_line += Character.toUpperCase(word.charAt(0)) + word.substring(1) + " ";
         }
-        System.out.println(newString.trim());
+        System.out.println(upper_case_line.trim());
     }
-
-
-
 }
+
+
+
