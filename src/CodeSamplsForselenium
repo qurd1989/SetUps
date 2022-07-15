@@ -1,0 +1,66 @@
+
+1. This is the code to retrieve modified date from page
+
+ Date date  = Calendar.getInstance().getTime();
+ DateFormat  dateFormat = new SimpleDateFormat("MM/dd//yyyy HH");
+ String strDate  = dateFormat.format(date);
+
+2.//Duration textfield validation
+
+  1. Blank validation
+  WebElement duration
+
+  Validator.assertTrue(duration.getText().equals(""), "Duration textfield was not blank", "Duration textfield was blank as expected");
+
+  2. Text Input from 0 to 999
+
+  for (int i = 0; i<1000; i++){
+  	duration.clear();
+  	duration.sendKeys(String.valueOf(i));
+  	Validator.assertTrue(duration.getText().equals(String.valueOf(i)), "Was not able to input "+ String.valueOf(i) +" in the textfield.", "Was successfully able to input "+ String.valueOf(i) +" in the textfield.");
+  }
+
+  //Validate negative scenarios
+
+  	duration.sendKeys("-1");
+  	Validator.assertFalse(duration.getText().equals("-1"), "Was not able to input '-1' in the textfield.", "Was successfully able to input '-1' in the textfield.");
+
+  	duration.sendKeys("1000");
+  	Validator.assertFalse(duration.getText().equals("1000"), "Was not able to input '1000' in the textfield.", "Was successfully able to input '1000' in the textfield.");
+
+  // Validate 'Uploads' is the rightmost among the available tabs
+
+  List<WebElements> tabs
+  int numberOfTabs = tabs.size;
+
+  String expectedTabName = "Uploads";
+
+  Validator.assertTrue(tabs.get(size-1).getText().equals("Uploads"), "Unable to validate if Uploads was the rightmost tab or not", "Successfully validated that 'Uploads' is the rightmost among the available tabs");
+
+
+  // Check if the list is Numerical sorted or not
+  private boolean verifyNumericOrder (List<WebElement> elements){
+          Boolean result = true;
+
+          int size = elements.size();
+          List<Integer> lists = new ArrayList<>();
+
+          for(int i=0; i<size; i++ ){
+              lists.add(Integer.parseInt(elements.get(i).getText()));
+          }
+
+          int previous = 0; // empty string: guaranteed to be less than or equal to any other
+
+          for (int current: lists) {
+              if (current> previous){
+                      result = false;
+                      break;
+
+              }
+              previous = current;
+
+          }
+
+          return result;
+      }
+3.
