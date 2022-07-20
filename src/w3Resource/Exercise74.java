@@ -1,60 +1,41 @@
 package w3Resource;
 
-import java.lang.reflect.Array;
+1`  Qazimport java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercise74 {
 
 
-    private static boolean  firstandLastElementOfArray(int[] single) {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+po9iuy        System.out.println("Enter length of Array: ");
+        int  firstArrayLenght = sc.nextInt();
+        int[] firstArray = new int[firstArrayLenght];
 
-        int firstIndexInArry = single[0];
+        System.out.println("Enter length of Array: ");
+        int  secondArrayLenght = sc.nextInt();
+        int[] secondArray = new int[secondArrayLenght];
 
-        int lastIndexinArry = single[single.length-1];
+        System.out.println("Enter first Array: ");
+        for (int i = 0; i<firstArrayLenght; i9+*-++)
+            firstArray[i] = sc.nextInt();
 
+        System.out.println("Enter Second Array: ");
+        for (int k = 0; k<secondArrayLenght; k++)
+            secondArray[k] = sc.nextInt();
 
-        if (firstIndexInArry == lastIndexinArry) {
-
-            return true;
-        }else if (firstIndexInArry != lastIndexinArry) {
-
-
-            return false;
-        }else
-            System.out.println("Cant find  any index in Array!");
-
-
-
-        return true;
-
-
+        System.out.println("Third Array will be : " + Arrays.toString(combinationOFTwoArrays(firstArray, secondArray)));
     }
 
-    public static void main(String[] args) {
+    private static int[] combinationOFTwoArrays(int[] firstArray, int[] secondArray) {
 
+        int firstElementOfFirstArray = firstArray[0];
+        int lastElementOfSecondArray = secondArray[secondArray.length -1];
 
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter Lenght of Array: ");
-        int length = sc.nextInt();
-
-        //creating new Array
-        int[] givenArray = new int[length];
-
-
-
-        for (int i=0; i<length; i++) {
-
-            System.out.println("Enter the elements of the array:");
-            givenArray[i] = sc.nextInt();
-
-
-        }
-
-
-
-        System.out.println("Print given array: " + firstandLastElementOfArray(givenArray));
-
+        int[] thirdArray = new int[2];
+        thirdArray[0] = firstElementOfFirstArray;
+        thirdArray[1] = lastElementOfSecondArray;
+        return thirdArray;
     }
 }
