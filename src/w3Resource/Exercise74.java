@@ -1,6 +1,6 @@
 package w3Resource;
 
-1`  Qazimport java.lang.reflect.Array;
+  import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Exercise74 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-po9iuy        System.out.println("Enter length of Array: ");
+       System.out.println("Enter length of Array: ");
         int  firstArrayLenght = sc.nextInt();
         int[] firstArray = new int[firstArrayLenght];
 
@@ -18,7 +18,7 @@ po9iuy        System.out.println("Enter length of Array: ");
         int[] secondArray = new int[secondArrayLenght];
 
         System.out.println("Enter first Array: ");
-        for (int i = 0; i<firstArrayLenght; i9+*-++)
+        for (int i = 0; i<firstArrayLenght; i++)
             firstArray[i] = sc.nextInt();
 
         System.out.println("Enter Second Array: ");
