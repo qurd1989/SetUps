@@ -1,2 +1,9 @@
-package demo1;public @interface checkNumber {
+package demo1;
+
+public class checkNumber {
+
+    public static void main(String[] args) {
+
+
+    }
 }
