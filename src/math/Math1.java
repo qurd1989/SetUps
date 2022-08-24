@@ -12,7 +12,10 @@ public class Math1 {
     *
     * Area and perimeter of a rectangle
     *
+    *
     * */
+
+
 
     public static List sumOfRectangle(double b, double h){
 
