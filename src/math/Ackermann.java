@@ -30,6 +30,24 @@ public class Ackermann {
 
     }
 
+    static  double power(double x, int n) {
+
+        if (x ==0) {
+            return 1;
+        }
+
+        if (x == 1) {
+
+            return 1;
+        }
+        if (n % 2 == 0) {
+                double temp = power(x, n / 2);
+                return temp * temp;
+
+        }else
+            return  x * power(Math.pow(x, n-1),n);
+    }
+
     public static void main(String[] args) {
 
 
@@ -41,6 +59,7 @@ public class Ackermann {
         int n = sc.nextInt();
 
         System.out.println(ackermannFunction(m,n));
+        System.out.println(power(m,n));
 
 
     }
