@@ -31,4 +31,10 @@ public class RightSidedTriangle {
 
         starstrianglePattern(n);
     }
+
+
+    public static int x(int x, double b){
+
+        return x;
+    }
 }
