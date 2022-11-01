@@ -43,5 +43,7 @@ public class Recurse {
         System.out.println(middle(s));
         System.out.println(reverseString(s));
 
+        System.out.println("Elmar");
+
     }
 }
