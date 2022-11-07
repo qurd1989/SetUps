@@ -12,6 +12,7 @@ public class PassingArrayToMethod {
             sum += arr[i];
 
 
+
         }
 
         System.out.println("sum of the element in the Array is: " + sum);
