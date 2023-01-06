@@ -7,8 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/algorithms" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/dataStructure" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/AlgorthimsPart1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="bluecatcode.junit.4.10.extended" level="project" />
   </component>
 </module>
