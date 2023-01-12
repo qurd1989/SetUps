@@ -21,5 +21,21 @@ public class switchOnAndOFF {
             System.out.println("Wipers off");
 
 
+
+
+        int distanceToPump = 45;
+
+
     }
+
+
+
+
+    public static boolean zeroFuel(double distanceToPump, double mpg, double fuelLeft) {
+        // Your code here!
+
+       return mpg * fuelLeft >= distanceToPump;
+
+    }
+
 }

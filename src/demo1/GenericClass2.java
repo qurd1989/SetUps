@@ -1,6 +1,5 @@
 package demo1;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;

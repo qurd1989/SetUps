@@ -1,7 +1,5 @@
 package demo1;
 
-import arrays.MainMethod;
-
 public class Complex {
 
     private final double real;
