@@ -1,14 +1,17 @@
-package StarPatterns;
+package Collections.StarPatterns;
 
 import java.util.Scanner;
 
-public class TrianglePattern {
+public class squarePattern {
 
 
-    private static  int  starstrianglePattern(int n) {
+    private static  int  starsSquarePattern(int n) {
+
+        long [] elmar = {1,2};
+
         for (int i = 1; i <=n; i++){
 
-            for (int j = 1; j <= i;  j++) {
+            for (int j = 1; j <= n; j++) {
                 System.out.print("*" + " ");
             }
             System.out.println();
@@ -26,7 +29,6 @@ public class TrianglePattern {
         System.out.println("Enter Row Number");
         int n = sc.nextInt();
 
-        starstrianglePattern(n);
+        starsSquarePattern(n);
     }
-
 }
