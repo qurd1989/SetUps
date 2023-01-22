@@ -1,4 +1,4 @@
-package Collections.StarPatterns;
+package StarPatterns;
 
 public class TrianglePattern1 {
 
