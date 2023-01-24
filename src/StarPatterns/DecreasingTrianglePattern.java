@@ -12,8 +12,9 @@ public class DecreasingTrianglePattern {
                 System.out.print("*" + " ");
             }
             System.out.println();
-        }
 
+
+        }
         return n;
 
     }
