@@ -1,5 +1,7 @@
 package intermediate1;
 
+import java.util.Arrays;
+
 public class GenerateAllSubaarays {
 
 
@@ -7,7 +9,10 @@ public class GenerateAllSubaarays {
 
         int A [] = { 36, 63, 63, 26, 87, 28, 77, 93, 7 };
 
-        System.out.println(solve(A));
+       String str =   Arrays.toString(solve(A));
+
+        System.out.println(str);
+
     }
 
     public static int[][] solve(int[] A) {
@@ -15,17 +20,35 @@ public class GenerateAllSubaarays {
 
         int n = A.length;
 
-        int [][] subArray = new int[n][0];
+        int totalbArray = (n * (n+1)) /2;
 
-        for (int i = 1; i < n; i++) {
+        int k = 0;
+
+
+        int [][] AllSubArrays = new int[totalbArray][];
+
+        for (int i = 0; i < n; i++) {
 
             for (int j = i; j < n; j++) {
 
-                subArray[i][j] = A[i] + A[j-1];
+                int size = j -i +1;
+
+                AllSubArrays[k] = new int[size];
+
+                for (int p = i; p <= j; p++) {
+
+                    AllSubArrays[k][p-1] = A[p];
+
+
+                }
+
+                k++;
+
 
             }
+
         }
-        return subArray;
+        return AllSubArrays;
 
     }
 
