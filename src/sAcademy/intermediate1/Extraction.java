@@ -10,14 +10,16 @@ public class Extraction {
     }
     public  static  int solve(int a)  {
 
-        int lastElement = 0 ;
-        while(a > 0) {
+        int cpunt =0;
 
-            lastElement = a % 10;
+        while(a != 0) {
+
+
+          cpunt ++;
             a = a/10;
-            lastElement =a;
-            break;
+
+
         }
-        return lastElement;
+     return cpunt;
     }
 }
