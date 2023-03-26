@@ -7,6 +7,10 @@ public class NobleInteger {
     public static void main(String[] args) {
 
 
+        char ch = '9';
+        ch = (char) (ch +90);
+        System.out.println(ch);
+
     }
     public int solve(int[] A) {
 
