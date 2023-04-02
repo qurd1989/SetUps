@@ -7,8 +7,9 @@ public class RemoveDuplicatesFromSortedArrayTwo {
     }
 
 
-    public static int solve(int [] num ) {
-
-
-    }
+//    public static int solve(int [] num ) {
+//
+//
+//
+//    }
 }
