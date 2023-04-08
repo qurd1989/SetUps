@@ -1,52 +1,49 @@
 package arrays;
 
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class REmovingArray {
-
-    private String name;
-    private int score;
-
-    public REmovingArray(String n , int s) {
-        this.name = n;
-        this.score = s;
-
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getScore() {
-        return score;
-    }
-
-    public String toString() {
-
-        return "(" + name + ", " + score +")";
-
-
-    }
 
 
     public static void main(String[] args) {
 
+
+        char[] insert = {'B', 'C', 'D', 'A', 'E', 'H', 'G', 'F'};
+
+        System.out.println("Initial array:");
+        for (int i = 0; i < insert.length; i++) {
+            System.out.print(insert[i] + " ");
+        }
+        System.out.println();
+
+        insertionSort(insert);
+
+        System.out.println("Sorted array:");
+        for (int i = 0; i < insert.length; i++) {
+            System.out.print(insert[i] + " ");
+        }
+        System.out.println();
     }
 
-    public class  ScoreBoard {
-        private  int numEntreis = 0;
-         private REmovingArray[] board;
+    public static boolean insertionSort(char[] data) {
 
-         public ScoreBoard(int capacity) {
-             board = new REmovingArray[capacity];
+        int n = data.length;
 
-         }
+        for (int i = 1; i < n; i++) {
+
+            char cur = data[i];
+
+            int j = i;
+            while (j > 0 && data[j - 1] > cur) {
+
+                data[j] = data[j - 1];
+                j--;
+
+            }
+            data[j] = cur;
+
+
+        }
+        return false;
     }
-    public  void add(REmovingArray e){
-
-        int newScore = e.getScore();
-        if()
-
-    }
-
 }
