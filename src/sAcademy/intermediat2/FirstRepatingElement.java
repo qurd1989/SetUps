@@ -10,6 +10,7 @@ public class FirstRepatingElement {
         int A[] = {8, 15, 1, 10, 5, 19, 19, 3, 5, 6, 6, 2, 8, 2, 12, 16, 3 };
 
         System.out.println(solve(A));
+        System.out.println("Print me!");
 
     }
 
