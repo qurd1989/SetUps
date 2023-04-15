@@ -50,4 +50,35 @@ public class CountPairSum {
             }
         return count;
     }
+/*    You are given an array A of N integers and an integer B.
+    Count the number of pairs (i,j) such that A[i] - A[j] = B and i ≠ j.
+    Since the answer can be very large, return the remainder after dividing the count with 109+7.*/
+
+    public static int solve12(int[] A, int B) {
+
+        int n = A.length;
+
+        int mod = (int)(1e9) +1;
+
+        HashMap<Integer, Integer> hm = new HashMap<>();
+        for (int i = 0; i < n; i++ ){
+
+            hm.put(i, hm.getOrDefault(i, 0) +1);
+
+        }
+
+        int ans = 0;
+        for (int i= 0; i < n; i++) {
+            if (hm.containsKey(i -B)) {
+                ans += hm.get(i -B);
+
+                if (i - B ==i) {
+                    ans -= 1;
+
+                }
+            }
+        }
+
+        return ans % mod;
+    }
 }
