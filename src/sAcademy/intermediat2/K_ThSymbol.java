@@ -6,19 +6,15 @@ public class K_ThSymbol {
 
     }
 
-    public  static int solve(int n, int k) {
-
-
-        if (n ==1 ) {
-            return 0;
-
+    public int solve(int A, int B) {
+        if (A == 1) {
+            return 0; // The first row always has a single 0
         }
-        int parent = solve(n-1, k/2 + k%2);
-
-        boolean isKthOdd = ((k & 2) ==1);
-
-        if (parent == 1) {
-            return
+        int parent = solve(A - 1, B / 2); // Find parent row and index
+        if (parent == 0) {
+            return (B % 2 == 0) ? 0 : 1; // If parent is 0, Bth symbol is 0 if B is even, else 1
+        } else {
+            return (B % 2 == 0) ? 1 : 0; // If parent is 1, Bth symbol is 1 if B is even, else 0
         }
     }
 }
