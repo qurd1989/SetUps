@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+
+//Given a binary tree, return the inorder traversal of its nodes' values.
 public class InorderTraversal {
 
     int val;
