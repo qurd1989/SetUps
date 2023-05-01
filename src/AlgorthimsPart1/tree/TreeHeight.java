@@ -44,6 +44,36 @@ public class TreeHeight {
                 return (rDepth + 1);
         }
 
+        int calculateHeight(TreeHeight root) {
+            if (root == null) {
+                return 0;
+            }
+
+            Queue<TreeHeight> queue = new LinkedList<>();
+            queue.offer(root);
+            int height = 0;
+
+            while (!queue.isEmpty()) {
+                int levelSize = queue.size();
+
+                for (int i = 0; i < levelSize; i++) {
+                    TreeHeight node = queue.poll();
+                    if (node.left != null) {
+                        queue.offer(node.left);
+                    }
+                    if (node.right != null) {
+                        queue.offer(node.right);
+                    }
+                }
+
+                height++;
+            }
+
+            return height;
+        }
+
+
+    }
 
         public static void main(String[] args) {
 
@@ -54,9 +84,10 @@ public class TreeHeight {
             bt.root.left.right = new TreeHeight(3);
 
             System.out.println("Height of tree is " + bt.solveHieght(bt.root));
+            System.out.println("Height of tree is " + bt.calculateHeight(bt.root));
 
         }
 
 
-    }
+
 }
