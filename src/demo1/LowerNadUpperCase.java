@@ -5,7 +5,7 @@ public class LowerNadUpperCase {
 
     public static void main(String[] args) {
 
-        String output = "Elmar DidOkLTWdeee";
+        String output = "Tahir in RestuaranT1234";
 
 
         System.out.println(toAlternativeString(output));

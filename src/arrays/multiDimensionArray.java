@@ -4,6 +4,7 @@ public class multiDimensionArray {
 
     public static void main(String[] args) {
 
+
         //two dimensionla array
         int [][] arr = {{1,2,3,4,5}, {2,4,0,6,7}, {2,4,7,0,9}, {55,6,7,8,93}};
 

@@ -10,7 +10,7 @@ public class ConvertingSecondsToHours {
 
     public static void main(String[] args) {
 
-        test();
+
 
 
         int h = 0;
@@ -52,14 +52,6 @@ public class ConvertingSecondsToHours {
 
 
 
-    @Test
 
-    public  static void test() {
-
-        assertEquals("aaa", ConvertingSecondsToHours.repeat(3, "a"));
-
-
-
-    }
 
 }
