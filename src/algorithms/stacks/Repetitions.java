@@ -3,29 +3,33 @@ package stacks;
 import java.util.Scanner;
 
 public class Repetitions {
-        public static void main(String[] args) {
+
+                public static void printMatrix( int [ ][ ] m )
+                 {
+                     for( int i = 0; i < m.length; i++ )
+                         {
+                        if( m[ i ] == null )
+                            System.out.println( "(null)" );
+                        else
+                        {
+                             for( int j = 0; j < m[i].length; j++ )
+                                 System.out.print( m[ i ][ j ] + " " );
+                             System.out.println( );
+                             }
+                         }
+                     }
+
+                 public static void main( String [ ] args )
+                {
+                     int [ ][ ] a = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+                     int [ ][ ] b = { { 1, 2 }, null, { 5, 6 } };
+                     int [ ][ ] c = { { 1, 2 }, { 3, 4, 5 }, { 6 } };
 
 
-            Scanner sc = new Scanner(System.in);
-            sc.next();
 
-                String s  =sc.nextLine();
-                char arr[] = s.toCharArray();
-                char current = ' ';
-                int count =1;
-                int max  = 1;
-                for (int i = 1; i < s.length(); i++) {
-                    if (arr[i] != current) {
-                        current = arr[i];
-                        count = 0;
+
+                     System.out.println( "a: " ); printMatrix( a );
+                     System.out.println( "b: " ); printMatrix( b );
+                    System.out.println( "c: " ); printMatrix( c );
                     }
-                    if (arr[i] == current) {
-                        count++;
-                    }
-                }
-
-                max  = Math.max(max , count);
-                System.out.println(max);
-
-        }
-}
+                 }
