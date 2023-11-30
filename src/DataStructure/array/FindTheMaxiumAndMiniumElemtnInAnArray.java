@@ -12,6 +12,7 @@ public class FindTheMaxiumAndMiniumElemtnInAnArray {
        }
     }
 
+    // Decimal to Binary
     public  static int[] solve(int arr) {
 
         int temp [] = new int[8];
@@ -26,4 +27,6 @@ public class FindTheMaxiumAndMiniumElemtnInAnArray {
         }
         return temp;
     }
+
+
 }
