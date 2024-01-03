@@ -17,7 +17,7 @@ public class CountOccurrences {
 
         for(int i = 0; i < n -2; i++) {
 
-            if (A.substring(i, i +3).equals("bob"));
+            if (A.startsWith("bob", i));
             count++;
 
         }

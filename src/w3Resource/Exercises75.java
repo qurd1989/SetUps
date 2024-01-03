@@ -23,16 +23,7 @@ public class Exercises75 {
 
                 return true;
 
-            }else if (elements.length >=2 || firstElementOfArray == lastElementOFArray){
-
-                return false;
-
-
-            }
-
-
-
-        return true;
+            }else return elements.length < 2 && firstElementOfArray != lastElementOFArray;
 
     }
     public static void main(String[] args) {

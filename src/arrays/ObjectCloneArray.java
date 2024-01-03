@@ -6,9 +6,9 @@ public class ObjectCloneArray {
     public static void main(String[] args) {
 
 
-        int intArray[][] = {{1,2,3,45}, {4,5,7}};
+        int[][] intArray = {{1,2,3,45}, {4,5,7}};
 
-        int cloneArray[][] = intArray.clone();
+        int[][] cloneArray = intArray.clone();
 
 
         //will print false or true?

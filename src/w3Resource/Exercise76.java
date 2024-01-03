@@ -21,13 +21,7 @@ public class Exercise76 {
 
             return true;
 
-        } else if (firsIndexOFirstArray != lastIndexOfSecondArray){
-
-         return false;
-        }
-
-
-        return true;
+        } else return firsIndexOFirstArray == lastIndexOfSecondArray;
     }
 
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ public class ClassMatrix {
 
     int row, column;
 
-    int mat[][];
+    int[][] mat;
 
     ClassMatrix(int r, int c){
 
@@ -58,9 +58,7 @@ public class ClassMatrix {
         ClassMatrix res = new ClassMatrix(this.row, this.column);
 
         for (int i = 0; i < this.row; i++) {
-            for (int j = 0; j < this.column; j++) {
-                res.mat[i][j] = this.mat[i][j];
-            }
+            if (this.column >= 0) System.arraycopy(this.mat[i], 0, res.mat[i], 0, this.column);
         }
         return res;
     }

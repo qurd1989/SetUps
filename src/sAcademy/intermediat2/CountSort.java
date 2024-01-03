@@ -5,10 +5,10 @@ public class CountSort {
     public static void main(String[] args) {
 
 
-        int A [] = {1,2,3,3,3,2,1,1,5,6,7,78,8,76,67,78,78};
+        int[] A = {1,2,3,3,3,2,1,1,5,6,7,78,8,76,67,78,78};
 
 
-        int j [] = solve(A);
+        int[] j = solve(A);
         for (int i = 0; i < j.length; i++) {
 
             System.out.print(A[i]);
@@ -21,7 +21,7 @@ public class CountSort {
 
         int n = A.length;
 
-        int output [] = new int[n];
+        int[] output = new int[n];
 
         int max =A[0];
         for( int i = 0; i < n; i++) {
@@ -30,7 +30,7 @@ public class CountSort {
                 max = A[i];
         }
 
-        int count[] = new int [max +1];
+        int[] count = new int [max +1];
         for (int i = 0; i <= max; i++) {
             count[i] = 0;
         }

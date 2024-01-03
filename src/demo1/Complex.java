@@ -19,11 +19,9 @@ public class Complex {
 
 
         }
-        if (!(o instanceof Complex)) {
+        if (!(o instanceof Complex c)) {
             return false;
         }
-
-        Complex c = (Complex) o;
 
         return Double.compare(real, c.real) == 0 &&
                 Double.compare(imag, c.imag) == 0;

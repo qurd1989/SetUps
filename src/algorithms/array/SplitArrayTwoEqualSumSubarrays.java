@@ -8,7 +8,7 @@ public class SplitArrayTwoEqualSumSubarrays {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
-        int arr[] = {1,2,3,4,5,5};
+        int[] arr = {1,2,3,4,5,5};
         int n = arr.length;
 
         int []resilt = solve(arr, n);

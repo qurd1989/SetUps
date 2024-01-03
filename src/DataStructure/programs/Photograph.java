@@ -2,9 +2,9 @@ package programs;
 
 public class Photograph implements Sellable{
 
-    private String descript;
-    private int price;
-    private boolean color;
+    private final String descript;
+    private final int price;
+    private final boolean color;
 
 
     public Photograph(String desc, int p, boolean c) {

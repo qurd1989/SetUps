@@ -8,10 +8,10 @@ public class Palindrome {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a word and check it, if it`s Palindrome: ");
         String s = sc.nextLine();
-        if (isPalindrome(s) == true) {
+        if (isPalindrome(s)) {
             System.out.println(s + " is word is Palindrome");
         }
-        if (isPalindrome(s) == false) {
+        if (!isPalindrome(s)) {
             System.out.println(s + " is word is NOT Palindrome");
         }
     }

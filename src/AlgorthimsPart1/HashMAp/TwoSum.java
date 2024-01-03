@@ -11,7 +11,7 @@ public class TwoSum {
         int[] sums = {1, 2, 3, 4, 5, 6, 7,};
         int target = 8;
 
-        int j[] = solve(sums, target);
+        int[] j = solve(sums, target);
         for (int i = 0; i < sums.length; i++) {
 
 
@@ -34,7 +34,7 @@ public class TwoSum {
         return null;
     }
 
-    public static int[] solve1(int nums[], int tagret) {
+    public static int[] solve1(int[] nums, int tagret) {
 
 
         int n =nums.length;

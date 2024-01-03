@@ -21,7 +21,7 @@ public class BinarySearch {
         BinarySearch rent = new BinarySearch(12.4, 23.4);
 
 
-        System.out.println(rent.toString());
+        System.out.println(rent);
 
         int  n = 10;
         System.out.println(Integer.toBinaryString(n));

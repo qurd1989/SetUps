@@ -58,7 +58,7 @@ public class Polindrome {
         return true;
     }
 
-    static int solve3(int arr[], int  n, int s) {
+    static int solve3(int[] arr, int  n, int s) {
 
 
         return (n==1) ? arr[s] :Math.max(arr[s], solve3(arr, s+1, n-1));

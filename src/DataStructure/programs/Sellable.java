@@ -2,13 +2,13 @@ package programs;
 
 public interface Sellable {
 
-    public String description();
+    String description();
 
 
-    public int listPrice();
+    int listPrice();
 
 
-    public int lowestPrice();
+    int lowestPrice();
 
 
 }

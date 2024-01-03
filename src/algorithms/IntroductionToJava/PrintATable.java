@@ -40,7 +40,7 @@ public class PrintATable {
 
     public  static boolean payRate(int score, double payRate) {
 
-        if (score > 90 == true) {
+        if (score > 90) {
 
             System.out.println("Your salary increased by 3%");
             double newPayRate = payRate + payRate * 0.03;

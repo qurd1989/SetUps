@@ -19,7 +19,7 @@ public class StructuredProgramming {
 
                 System.out.print("* ");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }

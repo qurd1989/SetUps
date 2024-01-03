@@ -11,12 +11,12 @@ public class CheckPairSum {
     public static void main(String[] args) {
 
         int A =100;
-        int arr[] ={23, 52, 95, 29, 9, 47, 49, 55, 96, 4 };
+        int[] arr ={23, 52, 95, 29, 9, 47, 49, 55, 96, 4 };
 
         System.out.println(solve(arr, A));
     }
 
-    public static int solve (int A[], int B) {
+    public static int solve (int[] A, int B) {
 
         int n = A.length;
         if (n < 1) {

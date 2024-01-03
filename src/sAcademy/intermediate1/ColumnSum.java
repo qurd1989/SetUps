@@ -9,7 +9,7 @@ public class ColumnSum {
 
         int n = A.length;
         int m = A[0].length;
-        int sum[] = new int[n];
+        int[] sum = new int[n];
 
 
 

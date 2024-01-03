@@ -4,7 +4,7 @@ public class RemoveDuplicatesFromSortedArray {
 
     public static void main(String[] args) {
 
-        int a[] = {1, 2, 3, 3, 4, 5, 6, 6};
+        int[] a = {1, 2, 3, 3, 4, 5, 6, 6};
 
         System.out.println(solve1(a));
         int n = a.length;
@@ -18,7 +18,7 @@ public class RemoveDuplicatesFromSortedArray {
 
     }
 
-    private static int solve(int A[]) {
+    private static int solve(int[] A) {
 
         int n = A.length;
         if (n < 2) {
@@ -37,7 +37,7 @@ public class RemoveDuplicatesFromSortedArray {
         return j;
     }
 
-    private static int[] solve1(int A[]) {
+    private static int[] solve1(int[] A) {
 
         int n = A.length;
 

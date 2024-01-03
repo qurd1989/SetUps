@@ -4,14 +4,14 @@ public class SumOfArray {
 
     public static void main(String[] args) {
 
-        int arr[] = {1, 2, 4, 7, 9, 10};
+        int[] arr = {1, 2, 4, 7, 9, 10};
 
         sum(arr);
 
 
     }
 
-    public  static void sum(int arr[]) {
+    public  static void sum(int[] arr) {
 
 
         int sum = 0;

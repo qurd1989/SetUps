@@ -13,7 +13,7 @@ public class PrimeNumber {
             return 1;
 
         for (int i = 2; i <= A; i++) {
-            if (i * i == A) {
+            if ((long) i * i == A) {
                 return 1;
             }
         }

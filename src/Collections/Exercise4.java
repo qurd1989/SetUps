@@ -40,7 +40,7 @@ public class Exercise4 {
 
         for (int i = 0 ; i < 5; i++) {
 
-            Integer y = (Integer) stack.pop();
+            Integer y = stack.pop();
 
             System.out.println(y);
         }
@@ -50,7 +50,7 @@ public class Exercise4 {
     static void stack_peek(Stack<Integer> stack){
 
 
-        Integer element  = (Integer) stack.peek();
+        Integer element  = stack.peek();
 
         stack.lastElement();
 
@@ -61,7 +61,7 @@ public class Exercise4 {
 
     static void stack_search(Stack<Integer> stack, int element) {
 
-        Integer  pos = (Integer)  stack.search(element);
+        Integer  pos = stack.search(element);
 
         if (pos == -1) {
 

@@ -35,7 +35,7 @@ public class CommonElements {
                 alist.add(B[i]);
             }
         }
-        int result[] = new int[alist.size()];
+        int[] result = new int[alist.size()];
         for (int i= 0; i < alist.size(); i++) {
             result[i] = alist.get(i);
         }

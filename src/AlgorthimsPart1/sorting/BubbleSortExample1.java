@@ -7,7 +7,7 @@ public class BubbleSortExample1 {
     public static void main(String[] args) {
 
     }
-    public static boolean solve(int num[]) {
+    public static boolean solve(int[] num) {
         Set<Integer> set =new HashSet<>();
         set.add(0);
 

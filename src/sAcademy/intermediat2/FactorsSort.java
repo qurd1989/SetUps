@@ -40,8 +40,8 @@ public class FactorsSort {
         }
 
         class Pair {
-            int factor;
-            int value;
+            final int factor;
+            final int value;
 
             Pair(int f, int v) {
                 this.factor = f;

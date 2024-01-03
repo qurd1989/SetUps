@@ -28,11 +28,7 @@ public class ConvertArrayToArrayList {
 
         //third method
 
-        for (String string : colors) {
-            l.add(string);
-
-
-        }
+        Collections.addAll(l, colors);
         System.out.println(l);
 
     }

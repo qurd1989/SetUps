@@ -10,7 +10,7 @@ public class Examples {
     public static void main(String[] args) {
 
 
-        int score[] = new int[]{4, 6, 8, 17, 23, 9, 10, 10};
+        int[] score = new int[]{4, 6, 8, 17, 23, 9, 10, 10};
 
         Arrays.sort(score);
         System.out.println("Sorted Scores:  ");

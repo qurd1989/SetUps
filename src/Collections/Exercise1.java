@@ -27,7 +27,7 @@ public class Exercise1 {
 
         list.add(null);
         list.add(null);
-        System.out.println(list.toString());
+        System.out.println(list);
     }
 
 
@@ -38,7 +38,7 @@ public class Exercise1 {
         list.add("Elmar");
         list.add("Elmar");
 
-        System.out.println(list.toString());
+        System.out.println(list);
 
     }
 
