@@ -59,7 +59,7 @@ public class HashSetRemove {
 
         int n = 100;
 
-        Integer intg  = new Integer("100");
+        Integer intg  = Integer.valueOf("100");
 
         System.out.println(i.hashCode());
 

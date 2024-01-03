@@ -27,9 +27,7 @@ public class RemoveDuplicatNum {
         }
 
         int[] result = new int[num + 1];
-        for (int i = 0; i <= num; i++) {
-            result[i] = nums[i];
-        }
+        System.arraycopy(nums, 0, result, 0, num + 1);
         System.out.println(result);
         return result;
     }

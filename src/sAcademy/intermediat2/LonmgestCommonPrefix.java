@@ -5,7 +5,7 @@ public class LonmgestCommonPrefix {
 
     public static void main(String[] args) {
 
-         String  A[] = {"Elmarrdish", "elmardududd", "Elmgsuusu"};
+         String[] A = {"Elmarrdish", "elmardududd", "Elmgsuusu"};
 
         System.out.println(solve(A));
     }

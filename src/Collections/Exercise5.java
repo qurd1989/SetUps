@@ -31,7 +31,7 @@ import static java.lang.System.exit;
     }
 
 
-    void inserationSort(int a[], int n) {
+    void inserationSort(int[] a, int n) {
 
 
     }

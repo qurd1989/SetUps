@@ -8,7 +8,7 @@ public class Exercise80 {
 
 
 
-    static int largest(int arr[]) {
+    static int largest(int[] arr) {
 
 
         int max = arr[0];
@@ -29,7 +29,7 @@ public class Exercise80 {
     public static void main(String[] args) {
 
 
-        int arr[] = {1, 3, 4, 5, 6,8, 17};
+        int[] arr = {1, 3, 4, 5, 6,8, 17};
 
         System.out.println("Largest number is : " + largest(arr));
 

@@ -45,7 +45,7 @@ public class Exercise3 {
         list.add("Duduush");
         list.add("handrish");
 
-        System.out.println(list.toString());
+        System.out.println(list);
 
         System.out.println(list.contains("Elmar"));
 

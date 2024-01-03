@@ -9,7 +9,7 @@ public class toLowerCase {
     public char[] to_lower(char[] A) {
 
         int n = A.length;
-        char result[] = new char[n];
+        char[] result = new char[n];
 
 
         for (int i = 0; i < n; i++) {

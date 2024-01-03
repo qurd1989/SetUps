@@ -18,7 +18,7 @@ public class PrintAllDivision {
 
 
        List<Integer> ls = new ArrayList<>();
-        for (int  i = 1; i * 1 < a; i++) {
+        for (int i = 1; i < a; i++) {
 
             if (a % i==0) {
                 ls.add(i);

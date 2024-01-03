@@ -14,7 +14,7 @@ public class HowColdIsOutside {
     static void calculateTemperature(double ta, double v) {
 
 
-      if ((v >=2) && (ta >= -58) && (ta <=41) == true){
+      if ((v >=2) && (ta >= -58) && (ta <= 41)){
 
             double twc = 35.74 + 0.6215 * ta - 35.75 * Math.pow(v, 0.16) + 0.4275 * ta * Math.pow(v, 0.16);
 

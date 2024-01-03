@@ -9,7 +9,7 @@ public class reverseArray {
 
         int[] A= {2,34,5,6,7,8,};
 
-         int j[] = solve(A);
+         int[] j = solve(A);
 
 
         for (int i = 0; i < A.length; i++) {

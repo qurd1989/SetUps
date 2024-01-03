@@ -2,10 +2,10 @@ package IntroductionToJava;
 
 public class CreditCard {
 
-    private String Customer;
-    private String bank;
-    private String account;
-    private int limit;
+    private final String Customer;
+    private final String bank;
+    private final String account;
+    private final int limit;
     protected  double balance;
 
     //Constructor created

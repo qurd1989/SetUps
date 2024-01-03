@@ -43,7 +43,7 @@ public class ReverseString {
 
     @Test
     public void reverseNullString() {
-        Assert.assertEquals(null, reverse(null));
+        Assert.assertNull(reverse(null));
     }
 
     @Test

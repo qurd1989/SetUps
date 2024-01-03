@@ -9,9 +9,9 @@ public class PrintEvenAndOddNumbersSeparatly {
 
     public static void main(String[] args) {
 
-        int arr[] = {23,24,25,26,17,28,29};
+        int[] arr = {23,24,25,26,17,28,29};
 
-        int result[][] = solve(arr);
+        int[][] result = solve(arr);
 
         for (int odd : result[0]) {
             System.out.println(" Odd Numbers: " + odd );
@@ -23,12 +23,12 @@ public class PrintEvenAndOddNumbersSeparatly {
 
     }
 
-    public static int[][] solve(int arrw[]) {
+    public static int[][] solve(int[] arrw) {
         int n = arrw.length;
         int j =0, k = 0;
 
-        int odd[] = new int[n];
-        int even[] = new int[n];
+        int[] odd = new int[n];
+        int[] even = new int[n];
 
         for (int i  = 0; i < n; i++) {
 
@@ -43,7 +43,7 @@ public class PrintEvenAndOddNumbersSeparatly {
         odd =  Arrays.copyOf(odd, k);
         even =  Arrays.copyOf(even, j);
 
-        int result[][] ={ odd, even};
+        int[][] result ={ odd, even};
         return result;
     }
 }

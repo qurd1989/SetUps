@@ -37,7 +37,7 @@ public class Exercise79 {
     public static void main(String[] args) {
 
 
-        int arr[] = {1,2,4};
+        int[] arr = {1,2,4};
         int k = 5;
 
 

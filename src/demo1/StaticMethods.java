@@ -24,7 +24,7 @@ public class StaticMethods {
 
         if (a ^ b ^ x) {
 
-            System.out.println("");
+            System.out.println();
             return true;
 
         } else
@@ -36,11 +36,7 @@ public class StaticMethods {
 
     public  static boolean eq(int[] a, int[] b) {
 
-        if (a.length == b.length) {
-            return true;
-
-        }else
-            return false;
+        return a.length == b.length;
 
     }
 

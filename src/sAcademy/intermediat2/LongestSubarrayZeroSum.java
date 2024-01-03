@@ -14,7 +14,7 @@ public class LongestSubarrayZeroSum {
         * */
     }
 
-    public static int solve(int A[]) {
+    public static int solve(int[] A) {
         int n = A.length;
         int sum = 0;
         int max_Length = 0;

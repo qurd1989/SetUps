@@ -7,7 +7,7 @@ public class ReverseTheArray {
     public static void main(String[] args) {
 
 
-        int arr[] = {1,3,4,54,56,7};
+        int[] arr = {1,3,4,54,56,7};
 
         reverse2(arr);
 //        reverse1(arr);
@@ -31,16 +31,16 @@ public class ReverseTheArray {
             end--;
         }
     }
-    public  static int[] reverse1(int n[]) {
+    public  static int[] reverse1(int[] n) {
 
-        int revverse[] = new int[n.length];
+        int[] revverse = new int[n.length];
         int temp = 0;
         for (int i = n.length-1; i >= 0; i--) {
             revverse[n.length -i -1] = n[i];
         }
         return revverse;
     }
-    public static String[] reverse2(int n[]){
+    public static String[] reverse2(int[] n){
 
         int num =n.length;
         StringBuilder sb = new StringBuilder();
@@ -48,7 +48,7 @@ public class ReverseTheArray {
         for (int i = num -1; i >= 0; i--) {
             sb.append(n[i]);
         }
-        String temp[] = sb.toString().split(" ");
+        String[] temp = sb.toString().split(" ");
         return temp;
     }
 }

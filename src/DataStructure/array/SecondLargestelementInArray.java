@@ -6,12 +6,12 @@ public class SecondLargestelementInArray {
 
         public static void main(String[] args) {
 
-                int arr [] = {2,5,6,3,6,7,8,9,};
+                int[] arr = {2,5,6,3,6,7,8,9,};
 
                 System.out.println(solve(arr));
 
         }
-        public static int solve(int arr[]){
+        public static int solve(int[] arr){
 
                 int n = arr.length;
                  int firstLargest = Integer.MIN_VALUE;

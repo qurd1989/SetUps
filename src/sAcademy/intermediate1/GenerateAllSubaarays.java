@@ -7,7 +7,7 @@ public class GenerateAllSubaarays {
 
     public static void main(String[] args) {
 
-        int A [] = { 36, 63, 63, 26, 87, 28, 77, 93, 7 };
+        int[] A = { 36, 63, 63, 26, 87, 28, 77, 93, 7 };
 
        String str =   Arrays.toString(solve(A));
 
@@ -35,12 +35,7 @@ public class GenerateAllSubaarays {
 
                 AllSubArrays[k] = new int[size];
 
-                for (int p = i; p <= j; p++) {
-
-                    AllSubArrays[k][p-1] = A[p];
-
-
-                }
+                System.arraycopy(A, i, AllSubArrays[k], i - 1, j + 1 - i);
 
                 k++;
 

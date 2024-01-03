@@ -22,11 +22,11 @@ public class Circle {
     private static void circummferenceAndArea(double r) {
 
 
-        double area = (double) Math.PI * Math.pow(r,2);
-        double circ = (double) Math.PI * 2 * r;
+        double area = Math.PI * Math.pow(r,2);
+        double circ = Math.PI * 2 * r;
 
-        System.out.println(String.format("%.6f", area));
-        System.out.println(String.format("%.6f", circ));
+        System.out.printf("%.6f%n", area);
+        System.out.printf("%.6f%n", circ);
 
 
     }

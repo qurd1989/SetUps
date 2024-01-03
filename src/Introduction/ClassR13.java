@@ -27,8 +27,10 @@ returns true if and only if n is a multiple of m, that is, n = mi for some integ
 
 
         while (m >= n * i) {
-            if (m == n * i)
+            if (m == n * i) {
                 result = true;
+                break;
+            }
             i++;
 
 

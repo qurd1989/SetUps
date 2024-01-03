@@ -9,7 +9,7 @@ public class WrapperClasses {
 
         int  j = 8;
 
-        Integer a = new Integer(12);
+        Integer a = Integer.valueOf(12);
 
         System.out.println(a.hashCode());
 

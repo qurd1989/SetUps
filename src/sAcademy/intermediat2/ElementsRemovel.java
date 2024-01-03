@@ -21,7 +21,7 @@ public class ElementsRemovel {
             ans += A[i] * (n - i);
         }
 
-        System.out.println(ans);;
+        System.out.println(ans);
         return ans;
 
     }

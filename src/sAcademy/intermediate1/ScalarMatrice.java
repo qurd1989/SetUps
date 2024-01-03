@@ -14,7 +14,7 @@ public class ScalarMatrice {
         int n = A.length;
         int m  = A[0].length;
 
-        int scalarMul[][] = new int[n][m];
+        int[][] scalarMul = new int[n][m];
 
 
         for(int i =0; i < n; i++) {

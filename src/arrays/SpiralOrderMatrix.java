@@ -5,14 +5,14 @@ public class SpiralOrderMatrix {
 
 
         int a = 5;
-        int result[][] = solve(a);
+        int[][] result = solve(a);
         System.out.println(result);
 
     }
             public static int[][] solve ( int A ) {
 
 
-                int fillMatirx[][] = new int[A][A];
+                int[][] fillMatirx = new int[A][A];
 
 
                 int rowStart = 0;
