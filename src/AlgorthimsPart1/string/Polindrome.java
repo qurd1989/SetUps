@@ -5,22 +5,24 @@ public class Polindrome {
 
 
         String s = "elmar";
+        String s1 = "abbab";
 
-        System.out.println(reverse(s));
-        if (reverse(s) == s) {
-            System.out.println("IdPoidrome");
-        }else
-            System.out.println("Not polindrome");
+//        System.out.println(reverse(s));
+//        if (reverse(s) == s) {
+//            System.out.println("IdPoidrome");
+//        }else
+//            System.out.println("Not polindrome");
+//
+//        System.out.println(isPolindrome(s));
+//
+//        int []arr = {1,24,45,65,676,865,33,2232};
+//
+//        int n = arr.length;
+//        int start = 0;
+//        int result = solve3(arr, n, start);
+//        System.out.println(result);
 
-        System.out.println(isPolindrome(s));
-
-        int []arr = {1,24,45,65,676,865,33,2232};
-
-        int n = arr.length;
-        int start = 0;
-        int result = solve3(arr, n, start);
-        System.out.println(result);
-
+        System.out.println(isPalindrome(s1));
     }
 
 
@@ -63,4 +65,18 @@ public class Polindrome {
 
         return (n==1) ? arr[s] :Math.max(arr[s], solve3(arr, s+1, n-1));
     }
+
+    static  boolean isPalindrome(String s) {
+        int start = 0, end = s.length()-1;
+        while (start < end){
+            if (s.charAt(start) != s.charAt(end)){
+                return false;
+            }
+            start++;
+            end--;
+
+        }
+        return true;
+    }
+
 }
