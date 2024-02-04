@@ -16,14 +16,14 @@ public class Stack {
 
     }
 
-    Stack() {
+    public Stack() {
         top = -1;
 
 
     }
 
 
-    boolean push(int x) {
+    public boolean push(int x) {
 
 
         if (top >= (MAX -1)) {
@@ -39,7 +39,7 @@ public class Stack {
         }
     }
 
-    int pop() {
+    public int pop() {
 
         if (top < 0) {
 
