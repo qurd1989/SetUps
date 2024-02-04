@@ -13,13 +13,21 @@ public class StructuredProgramming {
 
         int t  = sc.nextInt();
 
-        for (int i = 0; i < t; i++) {
-
-            for (int j = 0; j < i;  j++) {
-
-                System.out.print("* ");
+        for (int i = 3; i <= t; i++) {
+            int temp =i;
+            if(i % 3 == 0){
+                System.out.print(" " + i);
+                continue;
             }
-            System.out.println();
+            while (temp > 1){
+                if (temp % 10 == 3){
+                    System.out.print(" " + i);
+                    break;
+                }
+                temp/=10;
+            }
+
         }
+        System.out.println();
     }
 }
