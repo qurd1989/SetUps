@@ -1,9 +1,18 @@
 package tree;
 
+import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
-
+class Node {
+    int data;
+    Node left, right;
+    Node(int data) {
+        this.data = data;
+        left = null;
+        right = null;
+    }
+}
 public class PostorderTraversal {
     int val;
     PostorderTraversal left;
@@ -14,39 +23,38 @@ public class PostorderTraversal {
         right =null;
         left = null;
 
-
     }
     public static void main(String[] args) {
 
     }
 
-    int[] solve(PostorderTraversal A){
-
-        if (A == null) {
-            return new int[0];
+   public ArrayList<Integer> postorderTraversal(Node A){
+       ArrayList<Integer> list = new ArrayList<>();
+        Stack<Node> stack = new Stack<>();
+        Stack<Node> stack1 = new Stack<>();
+        if (A == null){
+            return list;
         }
 
-        List<Integer> list  = new ArrayList<>();
-        Stack<PostorderTraversal> stack = new Stack<>();
+        stack.push(A);
+        Node curr = A;
+        while ( !stack.isEmpty()){
 
-        stack.add(A);
-
-        while (!stack.isEmpty()) {
-
-            PostorderTraversal curr = A;
-            if (curr != null) {
-                stack.add(curr.left);
-                list.add(curr.val);
-                stack.add(curr.right);
-
+            A = stack.peek();
+            stack.pop();
+            stack1.push(curr);
+            if (A.left != null){
+                stack1.push(A);
             }
-
+            if (A.right != null){
+                stack1.push(A);
+            }
+            while (!stack1.isEmpty()) {
+                list.add(stack1.peek().data);
+                stack1.pop();
+            }
         }
+        return list;
+   }
 
-        int [] result = new int[list.size()];
-        for (int i = 0; i < list.size(); i++){
-            result[i] = list.get(i);
-        }
-        return result;
-    }
 }
