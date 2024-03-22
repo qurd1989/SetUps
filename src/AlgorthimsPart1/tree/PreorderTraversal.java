@@ -21,7 +21,7 @@ public class PreorderTraversal {
 
     }
     public class Solution {
-        public int[] preorderTraversal(PreorderTraversal A) {
+        public List<Integer> preorderTraversal(PreorderTraversal A) {
 
             List<Integer> res = new ArrayList<>();
             Stack<PreorderTraversal> stack = new Stack<>();
@@ -37,15 +37,8 @@ public class PreorderTraversal {
                     stack.add(curr.left);
                 }
             }
-            int[] reuslt = new int[res.size()];
-            for (int i =0; i < res.size(); i++) {
-                reuslt[i] = res.get(i);
+            return res;
             }
-
-            return reuslt;
-            }
-
-
         }
     }
 

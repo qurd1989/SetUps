@@ -6,8 +6,8 @@ import java.util.Stack;
 
 public class BinaryTree {
     int data;
-    BinaryTree left;
-    BinaryTree right;
+    public BinaryTree left;
+    public BinaryTree right;
 
     BinaryTree(int data) {
         this.data = data;

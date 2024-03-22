@@ -32,8 +32,5 @@ public class DynamicConnectivityClienrt {
             dcc.union(p,q);
             System.out.println(p + " "  + q);
         }
-
-
     }
-
 }
