@@ -1,5 +1,9 @@
 package hashing;
 
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 public class MyHashSet {
     private boolean[] set;
     public MyHashSet() {
@@ -26,4 +30,16 @@ public class MyHashSet {
 
 
     }
+
+    boolean findDuplicate(List<Integer> keys){
+        Set<Integer> set = new HashSet<>();
+        for(int key : keys){
+            if (set.contains(key)){
+                return true;
+            }
+            set.add(key);
+        }
+        return false;
+    }
+
 }
