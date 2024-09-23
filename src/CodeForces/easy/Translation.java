@@ -22,6 +22,7 @@ public class Translation {
         for (int i = 0; i < n/2; i++) {
             if (s.charAt(i) != t.charAt(n - i - 1)) {
                 System.out.println(s.charAt(i) + " " + t.charAt(n - i - 1));
+                System.out.println(s.charAt(n - i - 1) + " " + t.charAt(i));
                 return false;
             }
         }
