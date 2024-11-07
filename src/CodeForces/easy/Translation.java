@@ -12,7 +12,7 @@ public class Translation {
         } else {
             System.out.println("NO");
         }
-
+        System.out.println(isTranslation(s, t));
     }
     public static boolean isTranslation(String s, String t) {
         int n = s.length();
