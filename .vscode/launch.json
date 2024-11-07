@@ -1,0 +1,2961 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Exercise1",
+            "request": "launch",
+            "mainClass": "Collections.Exercise1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise2",
+            "request": "launch",
+            "mainClass": "Collections.Exercise2",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise3",
+            "request": "launch",
+            "mainClass": "Collections.Exercise3",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise4",
+            "request": "launch",
+            "mainClass": "Collections.Exercise4",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise5",
+            "request": "launch",
+            "mainClass": "Collections.Exercise5",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ListIteratorExampl",
+            "request": "launch",
+            "mainClass": "Collections.List.ListIteratorExampl",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SortList",
+            "request": "launch",
+            "mainClass": "Collections.List.SortList",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Stack",
+            "request": "launch",
+            "mainClass": "Collections.Stack",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList1",
+            "request": "launch",
+            "mainClass": "Collections.linkedList.LinkedList1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "HashMapEntries",
+            "request": "launch",
+            "mainClass": "Collections.map.HashMapEntries",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "HashCodeMethod",
+            "request": "launch",
+            "mainClass": "Collections.set.HashCodeMethod",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "HashSetIteration",
+            "request": "launch",
+            "mainClass": "Collections.set.HashSetIteration",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "HashSetRemove",
+            "request": "launch",
+            "mainClass": "Collections.set.HashSetRemove",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ArrayStack",
+            "request": "launch",
+            "mainClass": "Collections.stack.ArrayStack",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SpecialSubsequences",
+            "request": "launch",
+            "mainClass": "Collections.string.SpecialSubsequences",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountOccurrences",
+            "request": "launch",
+            "mainClass": "CountOccurrences",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FrequencyOfElementQuery",
+            "request": "launch",
+            "mainClass": "FrequencyOfElementQuery",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "DistinctNumbers",
+            "request": "launch",
+            "mainClass": "HashMAp.DistinctNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ExampleOne",
+            "request": "launch",
+            "mainClass": "HashMAp.ExampleOne",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise",
+            "request": "launch",
+            "mainClass": "HashMAp.Exercise",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Hashing",
+            "request": "launch",
+            "mainClass": "HashMAp.Hashing",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "HashMAp.TwoSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Class110",
+            "request": "launch",
+            "mainClass": "Introduction.Class110",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ClassR12",
+            "request": "launch",
+            "mainClass": "Introduction.ClassR12",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ClassR13",
+            "request": "launch",
+            "mainClass": "Introduction.ClassR13",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ClassR14",
+            "request": "launch",
+            "mainClass": "Introduction.ClassR14",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ClassR17",
+            "request": "launch",
+            "mainClass": "Introduction.ClassR17",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ClassR18",
+            "request": "launch",
+            "mainClass": "Introduction.ClassR18",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ClassR19",
+            "request": "launch",
+            "mainClass": "Introduction.ClassR19",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "AddAllDigitsInInteger",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.AddAllDigitsInInteger",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "AdditionProgram",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.AdditionProgram",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CalculateTips",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.CalculateTips",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ComputingIBM",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.ComputingIBM",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ConvertFeetIntoMeters",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.ConvertFeetIntoMeters",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ConvertPoundsIntoKilogram",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.ConvertPoundsIntoKilogram",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CounterDemo",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.CounterDemo",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CreditCard",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.CreditCard",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "EnergyNededToHeatWater",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.EnergyNededToHeatWater",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FinancialApplication",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.FinancialApplication",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindAreaOfHexagon",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.FindAreaOfHexagon",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindDistanceOfTwoPoints",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.FindDistanceOfTwoPoints",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindLongestSubstring",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.FindLongestSubstring",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindingRunawayLength",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.FindingRunawayLength",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "HowColdIsOutside",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.HowColdIsOutside",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintATable",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.PrintATable",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RandomNumbersSum",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.RandomNumbersSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "VelocityDividedByTime",
+            "request": "launch",
+            "mainClass": "IntroductionToJava.VelocityDividedByTime",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "AandBProblem",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.AandBProblem",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Circle",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.Circle",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CircleInRectangle",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.CircleInRectangle",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CodeChef1",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.CodeChef1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "DecimalToBinary",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.DecimalToBinary",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "HowManyDivisiors",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.HowManyDivisiors",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "HowManyDivisors",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.HowManyDivisors",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.Main",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MinMaxAndSum",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.MinMaxAndSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MinimumPicks",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.MinimumPicks",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintAChessboard",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.PrintAChessboard",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintAFrame",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.PrintAFrame",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintARectangle",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.PrintARectangle",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintManyHelloWorld",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.PrintManyHelloWorld",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintTestCases",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.PrintTestCases",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintTestCases1",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.PrintTestCases1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RandomNumbers",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.RandomNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Range",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.Range",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Rectangle",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.Rectangle",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReversingNumbers",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.ReversingNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SimpleCalculator",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.SimpleCalculator",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SmallOrLargeOrEqual",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.SmallOrLargeOrEqual",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "StoringThreeNumber",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.StoringThreeNumber",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "StructuredProgramming",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.StructuredProgramming",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SwappingTwoNumbers",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.SwappingTwoNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Watch",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.Watch",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "XCubic",
+            "request": "launch",
+            "mainClass": "IntroductionToProgramming.XCubic",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "DecreasingTrianglePattern",
+            "request": "launch",
+            "mainClass": "StarPatterns.DecreasingTrianglePattern",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "DiamondPattern",
+            "request": "launch",
+            "mainClass": "StarPatterns.DiamondPattern",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PyramidTrianglepattern",
+            "request": "launch",
+            "mainClass": "StarPatterns.PyramidTrianglepattern",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReversePyramid",
+            "request": "launch",
+            "mainClass": "StarPatterns.ReversePyramid",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReverseTrianglePatten",
+            "request": "launch",
+            "mainClass": "StarPatterns.ReverseTrianglePatten",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RightSidedTriangle",
+            "request": "launch",
+            "mainClass": "StarPatterns.RightSidedTriangle",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "StarPatterns.Sample",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SquarePattern1",
+            "request": "launch",
+            "mainClass": "StarPatterns.SquarePattern1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TriangleNumberPattern",
+            "request": "launch",
+            "mainClass": "StarPatterns.TriangleNumberPattern",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TriangleNumberPattern2",
+            "request": "launch",
+            "mainClass": "StarPatterns.TriangleNumberPattern2",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TrianglePattern",
+            "request": "launch",
+            "mainClass": "StarPatterns.TrianglePattern",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TrianglePattern1",
+            "request": "launch",
+            "mainClass": "StarPatterns.TrianglePattern1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "squarePattern",
+            "request": "launch",
+            "mainClass": "StarPatterns.squarePattern",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ContinuousSumQuery",
+            "request": "launch",
+            "mainClass": "advance1.ContinuousSumQuery",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SingleNumber",
+            "request": "launch",
+            "mainClass": "advance1.SingleNumber",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindTheMaxiumAndMiniumElemtnInAnArray",
+            "request": "launch",
+            "mainClass": "array.FindTheMaxiumAndMiniumElemtnInAnArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "InsertElementInArray",
+            "request": "launch",
+            "mainClass": "array.InsertElementInArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PalindromicArray",
+            "request": "launch",
+            "mainClass": "array.PalindromicArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintEvenAndOddNumbersSeparatly",
+            "request": "launch",
+            "mainClass": "array.PrintEvenAndOddNumbersSeparatly",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReverseTheArray",
+            "request": "launch",
+            "mainClass": "array.ReverseTheArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargestelementInArray",
+            "request": "launch",
+            "mainClass": "array.SecondLargestelementInArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SplitArrayTwoEqualSumSubarrays",
+            "request": "launch",
+            "mainClass": "array.SplitArrayTwoEqualSumSubarrays",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TwoDimensionalArray",
+            "request": "launch",
+            "mainClass": "array.TwoDimensionalArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ArrayClone",
+            "request": "launch",
+            "mainClass": "arrays.ArrayClone",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "BinarytoDecimal",
+            "request": "launch",
+            "mainClass": "arrays.BinarytoDecimal",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ConvertArrayToArrayList",
+            "request": "launch",
+            "mainClass": "arrays.ConvertArrayToArrayList",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "EgExample",
+            "request": "launch",
+            "mainClass": "arrays.EgExample",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "EmptyArray",
+            "request": "launch",
+            "mainClass": "arrays.EmptyArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise1(1)",
+            "request": "launch",
+            "mainClass": "arrays.Exercise1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindDistinctElements",
+            "request": "launch",
+            "mainClass": "arrays.FindDistinctElements",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindingMaxNum",
+            "request": "launch",
+            "mainClass": "arrays.FindingMaxNum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "HormanicClass",
+            "request": "launch",
+            "mainClass": "arrays.HormanicClass",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MainMethod",
+            "request": "launch",
+            "mainClass": "arrays.MainMethod",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Note",
+            "request": "launch",
+            "mainClass": "arrays.Note",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ObjectCloneArray",
+            "request": "launch",
+            "mainClass": "arrays.ObjectCloneArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "OddNumbers",
+            "request": "launch",
+            "mainClass": "arrays.OddNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PassingArrayToMethod",
+            "request": "launch",
+            "mainClass": "arrays.PassingArrayToMethod",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumberInBigPicture",
+            "request": "launch",
+            "mainClass": "arrays.PrimeNumberInBigPicture",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintAllDivision",
+            "request": "launch",
+            "mainClass": "arrays.PrintAllDivision",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "REmovingArray",
+            "request": "launch",
+            "mainClass": "arrays.REmovingArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RemoveBadElements",
+            "request": "launch",
+            "mainClass": "arrays.RemoveBadElements",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicatNum",
+            "request": "launch",
+            "mainClass": "arrays.RemoveDuplicatNum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicatesFromSortedArray",
+            "request": "launch",
+            "mainClass": "arrays.RemoveDuplicatesFromSortedArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicatesFromSortedArrayTwo",
+            "request": "launch",
+            "mainClass": "arrays.RemoveDuplicatesFromSortedArrayTwo",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "arrays.SearchInsertPosition",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SortedArray",
+            "request": "launch",
+            "mainClass": "arrays.SortedArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SpiralOrderMatrix",
+            "request": "launch",
+            "mainClass": "arrays.SpiralOrderMatrix",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SumOfArray",
+            "request": "launch",
+            "mainClass": "arrays.SumOfArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "arrays.hello",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "multiDimensionArray",
+            "request": "launch",
+            "mainClass": "arrays.multiDimensionArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "reverseArray",
+            "request": "launch",
+            "mainClass": "arrays.reverseArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTree",
+            "request": "launch",
+            "mainClass": "binaryTree.BinaryTree",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchExerice1",
+            "request": "launch",
+            "mainClass": "binarysearchAlgorithm.BinarySearchExerice1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "InvocationOfMetthod",
+            "request": "launch",
+            "mainClass": "ccsuEdu.InvocationOfMetthod",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MaCUPDATE",
+            "request": "launch",
+            "mainClass": "ccsuEdu.MaCUPDATE",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ShortCircuitEvaluation",
+            "request": "launch",
+            "mainClass": "ccsuEdu.ShortCircuitEvaluation",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Localtime",
+            "request": "launch",
+            "mainClass": "dates.Localtime",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "AbstractionMethod",
+            "request": "launch",
+            "mainClass": "demo1.AbstractionMethod",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Anagrams",
+            "request": "launch",
+            "mainClass": "demo1.Anagrams",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CalculateTax",
+            "request": "launch",
+            "mainClass": "demo1.CalculateTax",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CastingType",
+            "request": "launch",
+            "mainClass": "demo1.CastingType",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ChildRateOrAdultRate",
+            "request": "launch",
+            "mainClass": "demo1.ChildRateOrAdultRate",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Complex",
+            "request": "launch",
+            "mainClass": "demo1.Complex",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ConvertingSecondsToHours",
+            "request": "launch",
+            "mainClass": "demo1.ConvertingSecondsToHours",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountVowelsAndConsonants",
+            "request": "launch",
+            "mainClass": "demo1.CountVowelsAndConsonants",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CurrencyFormat",
+            "request": "launch",
+            "mainClass": "demo1.CurrencyFormat",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Examples",
+            "request": "launch",
+            "mainClass": "demo1.Examples",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ExclamationMArk",
+            "request": "launch",
+            "mainClass": "demo1.ExclamationMArk",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxNumber",
+            "request": "launch",
+            "mainClass": "demo1.FindMaxNumber",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Functions",
+            "request": "launch",
+            "mainClass": "demo1.Functions",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "GenericClass2",
+            "request": "launch",
+            "mainClass": "demo1.GenericClass2",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "GetValueOf",
+            "request": "launch",
+            "mainClass": "demo1.GetValueOf",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "GettingIntegerValue",
+            "request": "launch",
+            "mainClass": "demo1.GettingIntegerValue",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubstring",
+            "request": "launch",
+            "mainClass": "demo1.LongestSubstring",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "LowerNadUpperCase",
+            "request": "launch",
+            "mainClass": "demo1.LowerNadUpperCase",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MatcherPattern",
+            "request": "launch",
+            "mainClass": "demo1.MatcherPattern",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "OnlyPositiveNumbers",
+            "request": "launch",
+            "mainClass": "demo1.OnlyPositiveNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RemoveElement",
+            "request": "launch",
+            "mainClass": "demo1.RemoveElement",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RemoveExclamationMarks",
+            "request": "launch",
+            "mainClass": "demo1.RemoveExclamationMarks",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWords",
+            "request": "launch",
+            "mainClass": "demo1.ReverseWords",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "demo1.Solution",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SqureWithStar",
+            "request": "launch",
+            "mainClass": "demo1.SqureWithStar",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "StaticMethods",
+            "request": "launch",
+            "mainClass": "demo1.StaticMethods",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SwitchItUp",
+            "request": "launch",
+            "mainClass": "demo1.SwitchItUp",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "demo1.Test",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TrainingJS",
+            "request": "launch",
+            "mainClass": "demo1.TrainingJS",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Tree",
+            "request": "launch",
+            "mainClass": "demo1.Tree",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ValidateUSPhonenumber",
+            "request": "launch",
+            "mainClass": "demo1.ValidateUSPhonenumber",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "VerifyTwoIntegerValue",
+            "request": "launch",
+            "mainClass": "demo1.VerifyTwoIntegerValue",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "VowelRemover",
+            "request": "launch",
+            "mainClass": "demo1.VowelRemover",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoopIteration",
+            "request": "launch",
+            "mainClass": "demo1.WhileLoopIteration",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "WrapperClasses",
+            "request": "launch",
+            "mainClass": "demo1.WrapperClasses",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "checkNumber",
+            "request": "launch",
+            "mainClass": "demo1.checkNumber",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "switchOnAndOFF",
+            "request": "launch",
+            "mainClass": "demo1.switchOnAndOFF",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "AntonAndDanik",
+            "request": "launch",
+            "mainClass": "easy.AntonAndDanik",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "EquilibriumPoint",
+            "request": "launch",
+            "mainClass": "easy.EquilibriumPoint",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "NearlyLuckyNumber",
+            "request": "launch",
+            "mainClass": "easy.NearlyLuckyNumber",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SoliderAndBananas",
+            "request": "launch",
+            "mainClass": "easy.SoliderAndBananas",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Translation",
+            "request": "launch",
+            "mainClass": "easy.Translation",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Word",
+            "request": "launch",
+            "mainClass": "easy.Word",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "WrongSubtraction",
+            "request": "launch",
+            "mainClass": "easy.WrongSubtraction",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MyHashSet",
+            "request": "launch",
+            "mainClass": "hashing.MyHashSet",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticProgression",
+            "request": "launch",
+            "mainClass": "intermediat2.ArithmeticProgression",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CheckPairSum",
+            "request": "launch",
+            "mainClass": "intermediat2.CheckPairSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CheckPalindrome",
+            "request": "launch",
+            "mainClass": "intermediat2.CheckPalindrome",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Checkanagrams",
+            "request": "launch",
+            "mainClass": "intermediat2.Checkanagrams",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ClassCircle",
+            "request": "launch",
+            "mainClass": "intermediat2.ClassCircle",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ClassMatrix",
+            "request": "launch",
+            "mainClass": "intermediat2.ClassMatrix",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CommonElements",
+            "request": "launch",
+            "mainClass": "intermediat2.CommonElements",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CompareLinkedList",
+            "request": "launch",
+            "mainClass": "intermediat2.CompareLinkedList",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountIncreaisnTriples",
+            "request": "launch",
+            "mainClass": "intermediat2.CountIncreaisnTriples",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountOccurrences(1)",
+            "request": "launch",
+            "mainClass": "intermediat2.CountOccurrences",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountPairSum",
+            "request": "launch",
+            "mainClass": "intermediat2.CountPairSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountSort",
+            "request": "launch",
+            "mainClass": "intermediat2.CountSort",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountSubarrayZeroSum",
+            "request": "launch",
+            "mainClass": "intermediat2.CountSubarrayZeroSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountUniqueElements",
+            "request": "launch",
+            "mainClass": "intermediat2.CountUniqueElements",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ElementsRemovel",
+            "request": "launch",
+            "mainClass": "intermediat2.ElementsRemovel",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FactorsSort",
+            "request": "launch",
+            "mainClass": "intermediat2.FactorsSort",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FirstRepatingElement",
+            "request": "launch",
+            "mainClass": "intermediat2.FirstRepatingElement",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ImplementPowerFunction",
+            "request": "launch",
+            "mainClass": "intermediat2.ImplementPowerFunction",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "InsertInLinkedList",
+            "request": "launch",
+            "mainClass": "intermediat2.InsertInLinkedList",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Isalnum",
+            "request": "launch",
+            "mainClass": "intermediat2.Isalnum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "K_ThSymbol",
+            "request": "launch",
+            "mainClass": "intermediat2.K_ThSymbol",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "KthElementInlinkedlist",
+            "request": "launch",
+            "mainClass": "intermediat2.KthElementInlinkedlist",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "LengthOfLongestConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "intermediat2.LengthOfLongestConsecutiveOnes",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "LongestSubarrayZeroSum",
+            "request": "launch",
+            "mainClass": "intermediat2.LongestSubarrayZeroSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "LonmgestCommonPrefix",
+            "request": "launch",
+            "mainClass": "intermediat2.LonmgestCommonPrefix",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MultipleLeftRotationsOfArray",
+            "request": "launch",
+            "mainClass": "intermediat2.MultipleLeftRotationsOfArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "NobleInteger",
+            "request": "launch",
+            "mainClass": "intermediat2.NobleInteger",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PairWithGivenDifference",
+            "request": "launch",
+            "mainClass": "intermediat2.PairWithGivenDifference",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintLinkedList",
+            "request": "launch",
+            "mainClass": "intermediat2.PrintLinkedList",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "intermediat2.ReverseString",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStringRecursively",
+            "request": "launch",
+            "mainClass": "intermediat2.ReverseStringRecursively",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReverseTheString",
+            "request": "launch",
+            "mainClass": "intermediat2.ReverseTheString",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SearchInLinkedList",
+            "request": "launch",
+            "mainClass": "intermediat2.SearchInLinkedList",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SortByColor",
+            "request": "launch",
+            "mainClass": "intermediat2.SortByColor",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "StringOperation",
+            "request": "launch",
+            "mainClass": "intermediat2.StringOperation",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SubArraySumEqualToK",
+            "request": "launch",
+            "mainClass": "intermediat2.SubArraySumEqualToK",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SubArrayWithGivenSum",
+            "request": "launch",
+            "mainClass": "intermediat2.SubArrayWithGivenSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SubArrayWithSum",
+            "request": "launch",
+            "mainClass": "intermediat2.SubArrayWithSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigitsRecursively",
+            "request": "launch",
+            "mainClass": "intermediat2.SumOfDigitsRecursively",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TensDigitSorting",
+            "request": "launch",
+            "mainClass": "intermediat2.TensDigitSorting",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ToUpperCase",
+            "request": "launch",
+            "mainClass": "intermediat2.ToUpperCase",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ToggleCase",
+            "request": "launch",
+            "mainClass": "intermediat2.ToggleCase",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "toLowerCase",
+            "request": "launch",
+            "mainClass": "intermediat2.toLowerCase",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "AAnyBasseToDecimal",
+            "request": "launch",
+            "mainClass": "intermediate1.AAnyBasseToDecimal",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "AmazingSubarrays",
+            "request": "launch",
+            "mainClass": "intermediate1.AmazingSubarrays",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ArmstrongNumbers",
+            "request": "launch",
+            "mainClass": "intermediate1.ArmstrongNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ArrayRotation",
+            "request": "launch",
+            "mainClass": "intermediate1.ArrayRotation",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeToBuyandSellStocks",
+            "request": "launch",
+            "mainClass": "intermediate1.BestTimeToBuyandSellStocks",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "BiteThem",
+            "request": "launch",
+            "mainClass": "intermediate1.BiteThem",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Bulbs",
+            "request": "launch",
+            "mainClass": "intermediate1.Bulbs",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ClosestMinMaxArray",
+            "request": "launch",
+            "mainClass": "intermediate1.ClosestMinMaxArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ColumnSum",
+            "request": "launch",
+            "mainClass": "intermediate1.ColumnSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Compare",
+            "request": "launch",
+            "mainClass": "intermediate1.Compare",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountFactors",
+            "request": "launch",
+            "mainClass": "intermediate1.CountFactors",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountOfElements",
+            "request": "launch",
+            "mainClass": "intermediate1.CountOfElements",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "DivisibiltyByEight",
+            "request": "launch",
+            "mainClass": "intermediate1.DivisibiltyByEight",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ElemntsBetweenTwoNumbers",
+            "request": "launch",
+            "mainClass": "intermediate1.ElemntsBetweenTwoNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "EquilibriumIndexOfArray",
+            "request": "launch",
+            "mainClass": "intermediate1.EquilibriumIndexOfArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "EvenSubarrays",
+            "request": "launch",
+            "mainClass": "intermediate1.EvenSubarrays",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Extraction",
+            "request": "launch",
+            "mainClass": "intermediate1.Extraction",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindPairSum",
+            "request": "launch",
+            "mainClass": "intermediate1.FindPairSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "GenerateAllSubaarays",
+            "request": "launch",
+            "mainClass": "intermediate1.GenerateAllSubaarays",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "GoodPair",
+            "request": "launch",
+            "mainClass": "intermediate1.GoodPair",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "LeaderInArray",
+            "request": "launch",
+            "mainClass": "intermediate1.LeaderInArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "LinerSearch",
+            "request": "launch",
+            "mainClass": "intermediate1.LinerSearch",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MakeIT",
+            "request": "launch",
+            "mainClass": "intermediate1.MakeIT",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MinimumSwaps",
+            "request": "launch",
+            "mainClass": "intermediate1.MinimumSwaps",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "OriginalArrayFroPreSum",
+            "request": "launch",
+            "mainClass": "intermediate1.OriginalArrayFroPreSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PerfectNumber",
+            "request": "launch",
+            "mainClass": "intermediate1.PerfectNumber",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PickFromBothSides",
+            "request": "launch",
+            "mainClass": "intermediate1.PickFromBothSides",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "intermediate1.PrimeNumber",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ProductArrayPuzzle",
+            "request": "launch",
+            "mainClass": "intermediate1.ProductArrayPuzzle",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RangeSumQuery",
+            "request": "launch",
+            "mainClass": "intermediate1.RangeSumQuery",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReverseInRange",
+            "request": "launch",
+            "mainClass": "intermediate1.ReverseInRange",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReverseInteger",
+            "request": "launch",
+            "mainClass": "intermediate1.ReverseInteger",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ScalarMatrice",
+            "request": "launch",
+            "mainClass": "intermediate1.ScalarMatrice",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargestNumber",
+            "request": "launch",
+            "mainClass": "intermediate1.SecondLargestNumber",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SpecialSubsequences(1)",
+            "request": "launch",
+            "mainClass": "intermediate1.SpecialSubsequences",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayInGivenRange",
+            "request": "launch",
+            "mainClass": "intermediate1.SubarrayInGivenRange",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SumOfAllSubarrays",
+            "request": "launch",
+            "mainClass": "intermediate1.SumOfAllSubarrays",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TimeToEqualty",
+            "request": "launch",
+            "mainClass": "intermediate1.TimeToEqualty",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TimeToEqualty$InPlacePrefixSum",
+            "request": "launch",
+            "mainClass": "intermediate1.TimeToEqualty$InPlacePrefixSum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ValidAnagram",
+            "request": "launch",
+            "mainClass": "intermediate1.ValidAnagram",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "DeleteHeadOfLInkList",
+            "request": "launch",
+            "mainClass": "linkedList.DeleteHeadOfLInkList",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "LengthOfLinkedList",
+            "request": "launch",
+            "mainClass": "linkedList.LengthOfLinkedList",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListCreation",
+            "request": "launch",
+            "mainClass": "linkedList.LinkedListCreation",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "linkedList.Main",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RemoveTailFromLinkedList",
+            "request": "launch",
+            "mainClass": "linkedList.RemoveTailFromLinkedList",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SearchOfLinkedList",
+            "request": "launch",
+            "mainClass": "linkedList.SearchOfLinkedList",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ArraySubsetOfAnotherArray",
+            "request": "launch",
+            "mainClass": "list.ArraySubsetOfAnotherArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ValueEqualToIndexValue",
+            "request": "launch",
+            "mainClass": "list.ValueEqualToIndexValue",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Ackermann",
+            "request": "launch",
+            "mainClass": "math.Ackermann",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "BinaryConversion",
+            "request": "launch",
+            "mainClass": "math.BinaryConversion",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "math.BinarySearch",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountDown",
+            "request": "launch",
+            "mainClass": "math.CountDown",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountPictures",
+            "request": "launch",
+            "mainClass": "math.CountPictures",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "math.Factorial",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Math1",
+            "request": "launch",
+            "mainClass": "math.Math1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Math2",
+            "request": "launch",
+            "mainClass": "math.Math2",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Matrix",
+            "request": "launch",
+            "mainClass": "math.Matrix",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "OddNummer",
+            "request": "launch",
+            "mainClass": "math.OddNummer",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PentagonalProblems",
+            "request": "launch",
+            "mainClass": "math.PentagonalProblems",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PlusOne",
+            "request": "launch",
+            "mainClass": "math.PlusOne",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PowesOfTwo",
+            "request": "launch",
+            "mainClass": "math.PowesOfTwo",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumbers",
+            "request": "launch",
+            "mainClass": "math.PrimeNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PythagoreanTriplet",
+            "request": "launch",
+            "mainClass": "math.PythagoreanTriplet",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RandomNumbers(1)",
+            "request": "launch",
+            "mainClass": "math.RandomNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Recurse",
+            "request": "launch",
+            "mainClass": "math.Recurse",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ReduceButGrow",
+            "request": "launch",
+            "mainClass": "math.ReduceButGrow",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SumNumbers",
+            "request": "launch",
+            "mainClass": "math.SumNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "AddDigits",
+            "request": "launch",
+            "mainClass": "mathWorks.AddDigits",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindCurrentInRCircuit",
+            "request": "launch",
+            "mainClass": "mathWorks.FindCurrentInRCircuit",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "AccessDataInMatrix",
+            "request": "launch",
+            "mainClass": "matrix.AccessDataInMatrix",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "matrix.Example",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Search",
+            "request": "launch",
+            "mainClass": "matrix.Search",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "EvenFibonacciNumbers",
+            "request": "launch",
+            "mainClass": "oneHundredProblems.EvenFibonacciNumbers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MultiplesOfThreeOrFive",
+            "request": "launch",
+            "mainClass": "oneHundredProblems.MultiplesOfThreeOrFive",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ArrayConstruction",
+            "request": "launch",
+            "mainClass": "playGround.ArrayConstruction",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Bitwise",
+            "request": "launch",
+            "mainClass": "playGround.Bitwise",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "playGround.Calculator",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CountAnagrams",
+            "request": "launch",
+            "mainClass": "playGround.CountAnagrams",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Example(1)",
+            "request": "launch",
+            "mainClass": "playGround.Example",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "GCD",
+            "request": "launch",
+            "mainClass": "playGround.GCD",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "MissingRange",
+            "request": "launch",
+            "mainClass": "playGround.MissingRange",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "NumbersOperations",
+            "request": "launch",
+            "mainClass": "playGround.NumbersOperations",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrefixAndPostfix",
+            "request": "launch",
+            "mainClass": "playGround.PrefixAndPostfix",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintAllDivisorsOfNumber",
+            "request": "launch",
+            "mainClass": "playGround.PrintAllDivisorsOfNumber",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "RandZeroSixUniform",
+            "request": "launch",
+            "mainClass": "playGround.RandZeroSixUniform",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Sample(1)",
+            "request": "launch",
+            "mainClass": "playGround.Sample",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Shell",
+            "request": "launch",
+            "mainClass": "playGround.Shell",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Solution(1)",
+            "request": "launch",
+            "mainClass": "playGround.Solution",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Storage",
+            "request": "launch",
+            "mainClass": "playGround.Storage",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "StringExmaple",
+            "request": "launch",
+            "mainClass": "playGround.StringExmaple",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Synchronization2",
+            "request": "launch",
+            "mainClass": "playGround.Synchronization2",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Multiple3And5",
+            "request": "launch",
+            "mainClass": "programs.Multiple3And5",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "UniqeCharactersInString",
+            "request": "launch",
+            "mainClass": "programs.UniqeCharactersInString",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "QueueSize",
+            "request": "launch",
+            "mainClass": "queue.QueueSize",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "DivideNumberRecursively",
+            "request": "launch",
+            "mainClass": "recursion.DivideNumberRecursively",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Factorial(1)",
+            "request": "launch",
+            "mainClass": "recursion.Factorial",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FindFibonacci",
+            "request": "launch",
+            "mainClass": "recursion.FindFibonacci",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "recursion.Palindrome",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeOne",
+            "request": "launch",
+            "mainClass": "recursion.PalindromeOne",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PowerOfTwo",
+            "request": "launch",
+            "mainClass": "recursion.PowerOfTwo",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintNumberNTimesRecursion",
+            "request": "launch",
+            "mainClass": "recursion.PrintNumberNTimesRecursion",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PrintNumbersNToOne",
+            "request": "launch",
+            "mainClass": "recursion.PrintNumbersNToOne",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "recursion.Recursion",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "recursion.Sum",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "WeirdAlgorithm",
+            "request": "launch",
+            "mainClass": "recursion.WeirdAlgorithm",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "recursion.factorial",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "reverseArray(1)",
+            "request": "launch",
+            "mainClass": "recursion.reverseArray",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSortExample1",
+            "request": "launch",
+            "mainClass": "sorting.BubbleSortExample1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "CompareIt",
+            "request": "launch",
+            "mainClass": "sorting.CompareIt",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "sorting.SelectionSort",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "SortExample1",
+            "request": "launch",
+            "mainClass": "sorting.SortExample1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TwoPointers",
+            "request": "launch",
+            "mainClass": "sorting.TwoPointers",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Begginer",
+            "request": "launch",
+            "mainClass": "stacks.Begginer",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Example1",
+            "request": "launch",
+            "mainClass": "stacks.Example1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Push",
+            "request": "launch",
+            "mainClass": "stacks.Push",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Repetitions",
+            "request": "launch",
+            "mainClass": "stacks.Repetitions",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "EvenWords",
+            "request": "launch",
+            "mainClass": "string.EvenWords",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "FirstNonRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "string.FirstNonRepeatingCharacters",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Polindrome",
+            "request": "launch",
+            "mainClass": "string.Polindrome",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Sortingcharacters",
+            "request": "launch",
+            "mainClass": "string.Sortingcharacters",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Substring",
+            "request": "launch",
+            "mainClass": "string.Substring",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "ThreadOne",
+            "request": "launch",
+            "mainClass": "thread.ThreadOne",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "thread1.Client",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Client(1)",
+            "request": "launch",
+            "mainClass": "thread2.Client",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeLevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "tree.BinaryTreeLevelOrderTraversal",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "DynamicConnectivityClienrt",
+            "request": "launch",
+            "mainClass": "tree.DynamicConnectivityClienrt",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "HeightOfTree",
+            "request": "launch",
+            "mainClass": "tree.HeightOfTree",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "InorderTraversal",
+            "request": "launch",
+            "mainClass": "tree.InorderTraversal",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PostorderTraversal",
+            "request": "launch",
+            "mainClass": "tree.PostorderTraversal",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "PreorderTraversal",
+            "request": "launch",
+            "mainClass": "tree.PreorderTraversal",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "QuickFindImplementation",
+            "request": "launch",
+            "mainClass": "tree.QuickFindImplementation",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Recursion(1)",
+            "request": "launch",
+            "mainClass": "tree.Recursion",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Subsequences",
+            "request": "launch",
+            "mainClass": "tree.Subsequences",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TreeHeight",
+            "request": "launch",
+            "mainClass": "tree.TreeHeight",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "TreeNode",
+            "request": "launch",
+            "mainClass": "tree.TreeNode",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "EfficientPanLinking",
+            "request": "launch",
+            "mainClass": "w3Resource.EfficientPanLinking",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Execerise46",
+            "request": "launch",
+            "mainClass": "w3Resource.Execerise46",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exerccise1",
+            "request": "launch",
+            "mainClass": "w3Resource.Exerccise1",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exerccise45",
+            "request": "launch",
+            "mainClass": "w3Resource.Exerccise45",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercersie63",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercersie63",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercie24",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercie24",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercie44",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercie44",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise10",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise10",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise11",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise11",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise12",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise12",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise13",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise13",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise14",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise14",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise15",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise15",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise19",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise19",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise2(1)",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise2",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise20",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise20",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise21",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise21",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise22",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise22",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise23",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise23",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise3(1)",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise3",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise32",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise32",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise33",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise33",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise34",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise34",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise35",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise35",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise37",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise37",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise38",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise38",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise39",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise39",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise4(1)",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise4",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise40",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise40",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise41",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise41",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise42",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise42",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise47",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise47",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise48",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise48",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise49",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise49",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise5(1)",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise5",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise52",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise52",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise54",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise54",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise57",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise57",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise58",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise58",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise59",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise59",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise6",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise6",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise60",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise60",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise61",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise61",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise64",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise64",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise65",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise65",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise67",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise67",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise69",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise69",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise7",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise7",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise70",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise70",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise71",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise71",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise72",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise72",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise73",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise73",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise74",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise74",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise76",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise76",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise77",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise77",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise78",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise78",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise79",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise79",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise8",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise8",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise80",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise80",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercise9",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercise9",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercises16",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercises16",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercises17",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercises17",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercises18",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercises18",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercises43",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercises43",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exercises75",
+            "request": "launch",
+            "mainClass": "w3Resource.Exercises75",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Exerise68",
+            "request": "launch",
+            "mainClass": "w3Resource.Exerise68",
+            "projectName": "SetUps_c11cbe27"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "w3Resource.Main",
+            "projectName": "SetUps_c11cbe27"
+        }
+    ]
+}
