@@ -24,7 +24,9 @@ public class Translation {
                 System.out.println(s.charAt(i) + " " + t.charAt(n - i - 1));
                 System.out.println(s.charAt(n - i - 1) + " " + t.charAt(i));
                 return false;
+
             }
+            System.out.println(s.charAt(i) + " " + t.charAt(n - i - 1));
         }
         return true;
     }
