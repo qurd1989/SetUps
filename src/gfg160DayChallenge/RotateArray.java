@@ -12,6 +12,7 @@ public class RotateArray {
     }
     static void rotateArr(int arr[], int d){
         int n = arr.length;
+        d %= n;
         swap(arr, 0, d - 1); // Swap the first part
         swap(arr, d, n - 1); // Swap the second part
         swap(arr, 0, n - 1); // Swap the entire array
