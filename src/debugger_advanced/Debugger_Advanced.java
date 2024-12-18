@@ -16,6 +16,11 @@ public  class Debugger_Advanced {
             }
         }
 
+        private static void getInstance1() {
+            for (int i = 0; i < 10; i++){
+                System.out.println(getInstance(i));
+            }
+        }
         private static Cache getInstance(int i) {
             if (instance == null){
                 instance = new Cache();
