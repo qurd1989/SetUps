@@ -14,18 +14,13 @@ public class MaximumProductSubarray {
         int result = arr[0];
 
         for (int i = 1; i < n; i++) {
-            // Swap max and min when arr[i] is negative
             if (arr[i] < 0) {
                 int temp = max;
                 max = min;
                 min = temp;
             }
-
-            // Update max and min product for the current position
             max = Math.max(arr[i], max * arr[i]);
             min = Math.min(arr[i], min * arr[i]);
-
-            // Update the result with the highest product found so far
             result = Math.max(result, max);
         }
         return result;
