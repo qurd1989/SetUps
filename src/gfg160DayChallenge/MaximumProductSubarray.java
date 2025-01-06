@@ -22,6 +22,7 @@ public class MaximumProductSubarray {
             max = Math.max(arr[i], max * arr[i]);
             min = Math.min(arr[i], min * arr[i]);
             result = Math.max(result, max);
+            System.out.println("max: " + max + " min: " + min + " result: " + result);
         }
         return result;
     }
