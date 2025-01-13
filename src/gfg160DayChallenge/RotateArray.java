@@ -27,4 +27,7 @@ public class RotateArray {
             end--;
         }
     }
+    static void rotateArr2(int arr[], int d) {
+
+    }
 }
