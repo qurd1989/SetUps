@@ -5,7 +5,7 @@ public class RotateArray {
         // Example usage
         int[] arr = {1, 2, 3, 4, 5};
         int d = 2;
-        rotateArr(arr, d);
+        rotateArr1(arr, d);
         for (int num : arr) {
             System.out.print(num + " ");
         }
@@ -30,4 +30,19 @@ public class RotateArray {
     static void rotateArr2(int arr[], int d) {
 
     }
+    static void rotateArr1(int[] arr, int d) {
+        int n = arr.length;
+
+        // Repeat the rotation d times
+        for (int i = 0; i < d; i++) {
+
+            // Left rotate the array by one position
+            int first = arr[0];
+            for (int j = 0; j < n - 1; j++) {
+                arr[j] = arr[j + 1];
+            }
+            arr[n - 1] = first;
+        }
+    }
+
 }
