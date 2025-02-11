@@ -56,6 +56,7 @@ private static void sortArray(int[] arr) {
                 arr[j + 1] = temp;
                 swapped = true;
             }
+            Arrays.equals(new int[]{1, 2, 3}, new int[]{1, 2, 3});
         }
         if (!swapped) break; // If no elements were swapped, the array is already sorted
     }
