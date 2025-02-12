@@ -14,11 +14,11 @@ public class SKibidusAndOhio {
             for (int i = 1; i < n; i++) {
                 if (s.charAt(i - 1) == s.charAt(i)) {
                     flag = true;
+
                     break;
                 }
             }
             if (flag) {
-
                 System.out.println(1);
 
             } else {
