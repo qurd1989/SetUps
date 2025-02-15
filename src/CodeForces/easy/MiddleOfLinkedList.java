@@ -28,5 +28,13 @@ public class MiddleOfLinkedList {
         return arrayList.get(length/2);
 
 }
-
+ public ListNode middleNode2(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
 }
