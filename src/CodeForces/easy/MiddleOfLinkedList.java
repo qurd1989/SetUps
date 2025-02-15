@@ -28,4 +28,5 @@ public class MiddleOfLinkedList {
         return arrayList.get(length/2);
 
 }
+
 }
