@@ -12,6 +12,8 @@ public class Translation {
         } else {
             System.out.println("NO");
         }
+        System.out.println("dfdjfdfjdkfdf");
+        for(int i=0; i < t.length(); i++);
         System.out.println(isTranslation(s, t));
     }
     public static boolean isTranslation(String s, String t) {
