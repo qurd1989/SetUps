@@ -13,29 +13,26 @@ public class MergeSort {
         int num[] = new int[arr.length];
         int left = low;
         int right = mid +1;
+        int index = 0;
         while ((left <= mid && right <= high)) {
             if (arr[left] <= arr[right]) {
-                num[left] = arr[left];
-                left++;
+                num[index++] = arr[left++];
             } else {
-                num[right] = arr[right];
-                right++;
+                num[index++] = arr[right++];
             }
         }
         while (left <= mid) {
-            num[left] = arr[left];
-            left++;
+            num[index++] = arr[left++];
         }
 
         //  if elements on the right half are still left //
         while (right <= high) {
-            num[right] = arr[right];
-            right++;
+            num[index] = arr[right++];
         }
 
         // transfering all elements from temporary to arr //
         for (int i = low; i <= high; i++) {
-            arr[i] = num[i-low];
+            arr[low + i] = num[i];
         }
     }
 
