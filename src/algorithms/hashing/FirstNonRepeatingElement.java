@@ -24,4 +24,8 @@ public class FirstNonRepeatingElement {
         return Character.MIN_VALUE;
     }
 
+    public static char firAChar() {
+        return Character.MIN_VALUE;
+    }
+
 }
