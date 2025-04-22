@@ -8,7 +8,7 @@ public class ReverseLettersAndWords {
     }
 
     public static String reverseWords(String str ){
-        StringBuilder sb = new StringBuilder();
+        StringBuilder reverseString = new StringBuilder();
         String []words = str.split(WHITESPACE);
 
         for (String word : words) {
@@ -16,9 +16,9 @@ public class ReverseLettersAndWords {
             for (int i = word.length()-1; i > 0; i--) {
                 reversedWord.append(word.charAt(i));
             }
-            sb.append(reversedWord).append(WHITESPACE);
+            reverseString.append(reversedWord).append(WHITESPACE);
         }
-        return sb.toString();
+        return reverseString.toString();
     }
 
 }
