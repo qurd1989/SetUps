@@ -1,9 +1,8 @@
 package student;
 
 import java.util.*;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+
+import static student.CourseManagement.normalizeStudentId;
 
 public class Student {
     private String name;
@@ -16,11 +15,11 @@ public class Student {
     // Maps courseCode -> grade for this student
     private final Map<String, Double> gradesByCourseCode;
 
-    public Student(String name, String id) {
-        this.name = name;
-        this.id = id;
-        this.enrolledCourseCodes = new ArrayList<>();
-        this.gradesByCourseCode = new HashMap<>();
+    public Student(String name, String id, List<String> enrolledCourseCodes, Map<String, Double> gradesByCourseCode) {
+        setName(name);
+        setId(id);
+        this.enrolledCourseCodes = enrolledCourseCodes != null ? new ArrayList<>(enrolledCourseCodes) : new ArrayList<>();
+        this.gradesByCourseCode = gradesByCourseCode != null ? new HashMap<>(gradesByCourseCode) : new HashMap<>();
     }
 
     // Getters / Setters (encapsulation)
@@ -41,10 +40,8 @@ public class Student {
     }
 
     public void setId(String id) {
-        if (id == null || id.trim().isEmpty()) {
-            throw new IllegalArgumentException("Student ID cannot be empty.");
-        }
-        this.id = id.trim();
+
+        this.id = normalizeStudentId(id);
     }
 
     public List<String> getEnrolledCourseCodes() {

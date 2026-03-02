@@ -146,13 +146,12 @@ public class Main {
             return;
         }
 
-        double overall = CourseManagement.calculateOverallGrade(s);
-
         if (s.getGradesByCourseCode().isEmpty()) {
             System.out.println("No grades assigned yet. Overall grade: N/A");
-        } else {
-            System.out.printf("Overall grade for %s (%s): %.2f%n", s.getName(), s.getId(), overall);
+            return;
         }
+        double overall = CourseManagement.calculateOverallGrade(s);
+        System.out.printf("Overall grade for %s (%s): %.2f%n", s.getName(), s.getId(), overall);
     }
 
     private static void handleShowTotalEnrolled() {

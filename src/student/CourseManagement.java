@@ -32,7 +32,7 @@ public class CourseManagement {
         if (studentsById.containsKey(id)) {
             return false;
         }
-        Student s = new Student(name, id);
+        Student s = new Student(name, id, new ArrayList<>(), new HashMap<>());
         studentsById.put(id, s);
         return true;
     }
@@ -128,7 +128,7 @@ public class CourseManagement {
         return code.trim().toUpperCase();
     }
 
-    private static String normalizeStudentId(String id) {
+    public static String normalizeStudentId(String id) {
         if (id == null || id.trim().isEmpty()) {
             throw new IllegalArgumentException("Student ID cannot be empty.");
         }
