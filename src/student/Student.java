@@ -40,8 +40,11 @@ public class Student {
     }
 
     public void setId(String id) {
-
-        this.id = normalizeStudentId(id);
+        // Validate early to avoid empty/null IDs
+        if (id == null || id.trim().isEmpty()) {
+            throw new IllegalArgumentException("Student ID cannot be empty.");
+        }
+        this.id = id.trim().toUpperCase();
     }
 
     public List<String> getEnrolledCourseCodes() {
