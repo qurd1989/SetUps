@@ -2,7 +2,6 @@ package student;
 
 import java.util.*;
 
-import static student.CourseManagement.normalizeStudentId;
 
 public class Student {
     private String name;

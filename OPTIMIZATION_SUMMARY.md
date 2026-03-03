@@ -118,7 +118,29 @@ The original design called `normalizeStudentId()` from `CourseManagement` to ens
 
 ## Files Modified
 1. ✅ `Student.java` - Removed static import, implemented local validation
-2. ✅ `CourseManagement.java` - Added grade caching with cache invalidation
+2. ✅ `CourseManagement.java` - Added grade caching with proper cache invalidation
 3. ✅ `Course.java` - Removed redundant capacity check
-4. ✅ Compilation verified - All changes compile successfully
+4. ✅ `CacheInvalidationTest.java` - Test harness to verify cache invalidation works correctly
+5. ✅ Compilation verified - All changes compile successfully
+
+---
+
+## Test Results - Cache Invalidation Verification
+
+✅ **Test 1:** Single grade calculation
+- Grade assigned: 85.0
+- Result: 85.0 ✓
+
+✅ **Test 2:** Multiple grades (cache invalidation on second assignment)
+- Grades assigned: 85.0, then 95.0
+- Expected average: 90.0
+- Result: 90.0 ✓
+
+✅ **Test 3:** Grade update (cache invalidation on update)
+- Updated first grade from 85.0 to 90.0
+- Grades now: 90.0 and 95.0
+- Expected average: 92.5
+- Result: 92.5 ✓
+
+**Conclusion:** Cache invalidation is working correctly. Stale grades are not returned after assignments.
 

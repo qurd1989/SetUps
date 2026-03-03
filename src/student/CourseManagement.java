@@ -79,13 +79,15 @@ public class CourseManagement {
 
     /**
      * Assign grade to student for a course:
-     * calls Student.assignGrade(...)
+     * calls Student.assignGrade(...) and invalidates cached overall grade.
      */
     public static void assignGrade(Student student, Course course, double grade) {
         if (student == null || course == null) {
             throw new IllegalArgumentException("Student and course cannot be null.");
         }
         student.assignGrade(course, grade);
+        // Invalidate cache since grades changed - forces recalculation on next calculateOverallGrade call
+        overallGradeCache.remove(student.getId());
     }
 
     /**
