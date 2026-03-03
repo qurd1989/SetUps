@@ -10,8 +10,8 @@ public class CourseManagement {
     private static final Map<String, Course> coursesByCode = new HashMap<>();
     private static final Map<String, Student> studentsById = new HashMap<>();
 
-    // overall course grade per student (studentId -> overallGrade)
-    private static final Map<String, Double> overallGradesByStudentId = new HashMap<>();
+    // Cache for overall grades: studentId -> overallGrade
+    private static final Map<String, Double> overallGradeCache = new HashMap<>();
 
     private CourseManagement() {
         // Prevent instantiation
@@ -79,31 +79,39 @@ public class CourseManagement {
 
     /**
      * Assign grade to student for a course:
-     * calls Student.assignGrade(...)
+     * calls Student.assignGrade(...) and invalidates cached overall grade.
      */
     public static void assignGrade(Student student, Course course, double grade) {
         if (student == null || course == null) {
             throw new IllegalArgumentException("Student and course cannot be null.");
         }
         student.assignGrade(course, grade);
+        // Invalidate cache since grades changed - forces recalculation on next calculateOverallGrade call
+        overallGradeCache.remove(student.getId());
     }
 
     /**
      * Calculates overall grade for a student as an average of their assigned grades.
-     * Stores it in overallGradesByStudentId (static map).
+     * Results are cached for performance. Cache is invalidated when grades change.
      *
-     * @return overall grade
+     * @return overall grade (0.0 if no grades assigned)
      */
     public static double calculateOverallGrade(Student student) {
         if (student == null) {
             throw new IllegalArgumentException("Student cannot be null.");
         }
 
+        String studentId = student.getId();
+
+        // Return cached value if available
+        if (overallGradeCache.containsKey(studentId)) {
+            return overallGradeCache.get(studentId);
+        }
+
         Map<String, Double> grades = student.getGradesByCourseCode();
 
         if (grades.isEmpty()) {
-            // Store as 0.0 for convenience; interface can display "N/A"
-            overallGradesByStudentId.put(student.getId(), 0.0);
+            overallGradeCache.put(studentId, 0.0);
             return 0.0;
         }
 
@@ -112,12 +120,12 @@ public class CourseManagement {
             sum += g;
         }
         double overall = sum / grades.size();
-        overallGradesByStudentId.put(student.getId(), overall);
+        overallGradeCache.put(studentId, overall);
         return overall;
     }
 
     public static Double getStoredOverallGrade(String studentId) {
-        return overallGradesByStudentId.get(normalizeStudentId(studentId));
+        return overallGradeCache.get(normalizeStudentId(studentId));
     }
 
     // Helpers

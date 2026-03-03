@@ -63,9 +63,6 @@ public class Course {
      * This should only be called after verifying capacity and a successful student enrollment.
      */
     public void incrementEnrollment() {
-        if (!hasCapacity()) {
-            throw new IllegalStateException("Course " + courseCode + " is full.");
-        }
         currentEnrolled++;
         totalEnrolledStudentsAcrossAllCourses++;
     }
