@@ -1,6 +1,6 @@
 package vehicle;
 
-public class Motorcycle implements Vehicle, MotorVehicle {
+public class Motorcycle implements Vehicle, MotorcycleVehicle {
     private String make;
     private String model;
     private int year;

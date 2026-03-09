@@ -1,6 +1,6 @@
 package vehicle;
 
-public interface MotorVehicle {
+public interface MotorcycleVehicle {
     void setWheels(int wheels);
     int getWheels();
     void setMotorcycleType(String type);
