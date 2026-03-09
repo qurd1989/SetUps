@@ -16,6 +16,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/CodeForces" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/learnYard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/effectiveJava" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/headFirstDesign" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/vehicle" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
