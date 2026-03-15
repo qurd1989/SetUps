@@ -5,8 +5,8 @@ import java.util.*;
 
 
 public class Student {
-    private String name;
-    private String id;
+    private final String name;
+    private final String id;
 
     // Keeps the list of course codes the student is enrolled in.
     // We store codes instead of Course objects to avoid reference issues and simplify lookups.
@@ -16,35 +16,22 @@ public class Student {
     private final Map<String, Double> gradesByCourseCode;
 
     public Student(String name, String id, List<String> enrolledCourseCodes, Map<String, Double> gradesByCourseCode) {
-        setName(name);
-        setId(id);
+        this.id = id;
+        this.name = name;
         this.enrolledCourseCodes = enrolledCourseCodes != null ? new ArrayList<>(enrolledCourseCodes) : new ArrayList<>();
         this.gradesByCourseCode = gradesByCourseCode != null ? new HashMap<>(gradesByCourseCode) : new HashMap<>();
     }
+    public Optional<Double> getGradeForCourse(Course course) {
+        String code = course.getCourseCode();
+        return Optional.ofNullable(gradesByCourseCode.get(code));
+    }
 
-    // Getters / Setters (encapsulation)
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        // basic validation
-        if (name == null || name.trim().isEmpty()) {
-            throw new IllegalArgumentException("Student name cannot be empty.");
-        }
-        this.name = name.trim();
-    }
-
     public String getId() {
         return id;
-    }
-
-    public void setId(String id) {
-        // Validate early to avoid empty/null IDs
-        if (id == null || id.trim().isEmpty()) {
-            throw new IllegalArgumentException("Student ID cannot be empty.");
-        }
-        this.id = id.trim().toUpperCase();
     }
 
     public List<String> getEnrolledCourseCodes() {

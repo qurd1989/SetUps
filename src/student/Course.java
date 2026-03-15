@@ -2,7 +2,7 @@ package student;
 
 public class Course {
     private final String courseCode;
-    private final String name;
+    protected final String name;
     private int maxCapacity;
     private int currentEnrolled;
 
@@ -63,6 +63,9 @@ public class Course {
      * This should only be called after verifying capacity and a successful student enrollment.
      */
     public void incrementEnrollment() {
+        if (!hasCapacity()) {
+            throw new IllegalStateException("Course is at maximum capacity.");
+        }
         currentEnrolled++;
         totalEnrolledStudentsAcrossAllCourses++;
     }
