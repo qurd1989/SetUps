@@ -99,7 +99,7 @@ public class VehicleRentalSystem {
         return moto;
     }
 
-    // ─── Helper to get a truck from user input ───
+    // --- Helper to get a truck from user input ---
     static Truck createTruck() {
         System.out.println("\n[Enter Truck Details]");
         System.out.print("Make: ");
@@ -135,16 +135,13 @@ public class VehicleRentalSystem {
         return truck;
     }
 
-    // ─── Helper to validate year input ───
+    // --- Helper to validate year input ---
     static int getValidYear(String prompt) {
         while (true) {
             try {
                 System.out.print(prompt);
                 int year = Integer.parseInt(scanner.nextLine());
-                if (year < 1886 || year > 2100) {
-                    throw new IllegalArgumentException("Please enter a realistic year.");
-                }
-                return year;
+                return VehicleValidation.requireYearInRange(year);
             } catch (NumberFormatException e) {
                 System.out.println("That is not a valid year. Try again.");
             } catch (IllegalArgumentException e) {
@@ -153,4 +150,3 @@ public class VehicleRentalSystem {
         }
     }
 }
-
