@@ -1,16 +1,23 @@
 package vehicle;
 
+import java.util.Set;
+
+/**
+ * Car model with validated mutable attributes used by the rental demo.
+ */
 public class Car implements Vehicle, CarVehicle {
-    private String make;
-    private String model;
-    private int year;
+    private static final Set<String> ALLOWED_FUEL_TYPES = Set.of("petrol", "diesel", "electric");
+
+    private final String make;
+    private final String model;
+    private final int year;
     private int doors;
     private String fuelType;
 
     public Car(String make, String model, int year) {
-        this.make = make;
-        this.model = model;
-        this.year = year;
+        this.make = VehicleValidation.requireNonBlank(make, "Make");
+        this.model = VehicleValidation.requireNonBlank(model, "Model");
+        this.year = VehicleValidation.requireYearInRange(year);
     }
 
     @Override
@@ -33,7 +40,6 @@ public class Car implements Vehicle, CarVehicle {
         if (doors < 1 || doors > 6) {
             throw new IllegalArgumentException("Doors must be between 1 and 6.");
         }
-
         this.doors = doors;
     }
 
@@ -44,19 +50,14 @@ public class Car implements Vehicle, CarVehicle {
 
     @Override
     public void setFuelType(String fuelType) {
-        if (!fuelType.equalsIgnoreCase("petrol") &&
-                !fuelType.equalsIgnoreCase("diesel") &&
-                !fuelType.equalsIgnoreCase("electric")) {
-            throw new IllegalArgumentException("Fuel type must be petrol, diesel, or electric.");
-        }
-
-        this.fuelType = fuelType;
+        this.fuelType = VehicleValidation.normalizeOption(fuelType, "Fuel type", ALLOWED_FUEL_TYPES);
     }
 
     @Override
     public String getFuelType() {
         return fuelType;
     }
+
     public void displayInfo() {
         System.out.println("\n--- Car Details ---");
         System.out.println("Make       : " + make);
@@ -65,5 +66,4 @@ public class Car implements Vehicle, CarVehicle {
         System.out.println("Doors      : " + doors);
         System.out.println("Fuel Type  : " + fuelType);
     }
-
 }
